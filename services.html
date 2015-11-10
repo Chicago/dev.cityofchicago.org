@@ -1,0 +1,57 @@
+---
+layout: default
+section_id: services
+services:
+  - icon_class: fa fa-trophy
+    title: Design
+    desc:
+      Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.
+  - icon_class: fa fa-compass
+    title: Art Direction
+    desc:
+      Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.
+  - icon_class: fa fa-star-half-empty
+    title: Branding
+    desc:
+      Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.
+  - icon_class: fa fa-image
+    title: Photography
+    desc:
+      Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.
+  - icon_class: fa fa-dot-circle-o
+    title: Marketing
+    desc:
+      Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.
+---
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h4 style='color: #999'>We focus on</h4>
+      <h2>Our main services</h2>
+      <div class='spacing'></div>
+      <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+    </div>
+  </div>
+  <div class='three spacing'></div>
+</div>
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modBoxedTextSlider'>
+        <div class='boxes'>
+          {% for service in page.services %}
+            <div class='box' style='background: #f9f9f9;'>
+              <i class='{{service.icon_class}}'></i>
+              <h4>{{service.title}}</h4>
+              <p>{{service.desc}}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

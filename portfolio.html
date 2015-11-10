@@ -1,0 +1,119 @@
+---
+layout: default
+section_id: portfolio
+works:
+  - image: images/@stock/one-page-work-1.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    class: graphic-design
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-2.jpg
+    title: Look at me
+    link_to: portfolio-item.html
+    class: web-design print
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-3.jpg
+    title: Am I cute
+    link_to: portfolio-item.html
+    class: brand
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-4.jpg
+    title: Umbrella
+    link_to: portfolio-item.html
+    class: development
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-5.jpg
+    title: Canned Bros
+    link_to: portfolio-item.html
+    class: print brand
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-6.jpg
+    title: Hale
+    link_to: portfolio-item.html
+    class: web-design
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-7.jpg
+    title: A beautiful day
+    link_to: portfolio-item.html
+    class: web-design
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-8.jpg
+    title: Flower Book
+    link_to: portfolio-item.html
+    class: graphic-design
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-2.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    class: graphic-design
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-4.jpg
+    title: Look at me
+    link_to: portfolio-item.html
+    class: web-design print
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-1.jpg
+    title: Am I cute
+    link_to: portfolio-item.html
+    class: brand
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-6.jpg
+    title: Umbrella
+    link_to: portfolio-item.html
+    class: development
+    desc: Design &amp; Development
+
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='mod modGallery'>
+      <div class='gallery-nav'>
+        <ul>
+          <li class='current'>
+            <a data-cat='all' href='#'>All</a>
+          </li>
+          <li>
+            <a data-cat='graphic-design' href='#'>Graphic Design</a>
+          </li>
+          <li>
+            <a data-cat='web-design' href='#'>Web Design</a>
+          </li>
+          <li>
+            <a data-cat='brand' href='#'>Brand</a>
+          </li>
+          <li>
+            <a data-cat='development' href='#'>Development</a>
+          </li>
+          <li>
+            <a data-cat='print' href='#'>Print</a>
+          </li>
+        </ul>
+      </div>
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
+        {% for work in page.works %}
+          <li class='{{work.class}}'>
+            <a href='{{work.link_to}}'>
+              <img alt="" src="{{site.url}}/{{work.image}}" />
+              <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
+                <div class='thumb-info'>
+                  <h3>{{work.title}}</h3>
+                  <p>{{work.desc}}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <a class='button' href='#'>See more works</a>
+      </p>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

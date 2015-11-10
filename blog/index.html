@@ -1,0 +1,50 @@
+---
+layout: blog
+section_id: blog
+---
+
+{% for post in paginator.posts %}
+  <div class='big mod modBlogPost no_bg'>
+    <div class='images'>
+      {% for image in post.images %}
+        <div class='image'><img alt="" src="{{site.url}}/{{image}}" /></div>
+      {% endfor %}
+    </div>
+    <div class='content'>
+      <p class='info'>
+        <span>{{post.date | date: "%B %d, %Y" }}</span>
+        /
+        <span>
+          by
+          <a href="">{{post.author}}</a>
+        </span>
+        /
+        <span>
+          In
+          {% for cat in post.categories %}
+            <a href="#">{{cat}}</a>
+            {% unless forloop.last %}
+                ,
+            {% endunless %}
+          {% endfor %}
+        </span>
+        /
+        <span>
+          <a href="#">4 commetns</a>
+        </span>
+      </p>
+      <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+      <p>{{post.excerpt}}</p>
+      <div class='spacing'></div>
+      <a class="button small" href="{{post.url}}">Read more</a>
+    </div>
+  </div>
+  <hr>
+  <div class='two spacing'></div>
+{% endfor %}
+
+
+{% include pagination.html root="blog" %}
+
+
+<div class='four spacing'></div>

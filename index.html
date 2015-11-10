@@ -1,0 +1,327 @@
+---
+layout: default
+section_id: home
+slides:
+  - bg: images/@stock/slide-2.jpg
+    title:
+      text: Wrap is a creative theme for many purposes
+      animation: bottom-to-top
+      class: large-8 medium-11
+    buttons:
+      animation: bottom-to-top
+      class: medium-12
+      items:
+        - text: Purchase Now
+          url: http://themeforest.net/user/honryou/portfolio?ref=honryou
+          class: boxed
+  - bg: images/@stock/slide-3.jpg
+    title:
+      text: It is simple but powerful
+      animation: bottom-to-top
+      class: large-7 large-offset-5 medium-9 medium-offset-3
+    buttons:
+      animation: bottom-to-top
+      class: large-7 large-offset-5 medium-9 medium-offset-3
+      items:
+        - text: Purchase Now
+          url: http://themeforest.net/user/honryou/portfolio?ref=honryou
+          class: boxed
+  - bg: images/@stock/slide-6.jpg
+    buttons:
+      animation: bottom-to-top slow
+      class: large-12
+      items:
+        - text: View Features
+          url: http://themeforest.net/user/honryou/portfolio?ref=honryou
+          class: boxed
+        - text: Purchase Now
+          url: http://themeforest.net/user/honryou/portfolio?ref=honryou
+    infos:
+      - text: "&nbsp;Creative and responsive design"
+        animation: bottom-to-top
+      - text: "&nbsp;Many helpful shortcodes"
+        animation: bottom-to-top
+      - text: "&nbsp;Simple but powerful theme options"
+        animation: bottom-to-top
+      - text: "&nbsp;Fully responsive"
+        animation: bottom-to-top
+boxes:
+  - icon_class: fa fa-trophy
+    title: Design
+    text:
+      Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.
+  - icon_class: fa fa-compass
+    title: Art direction
+    text:
+      Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.
+  - icon_class: fa fa-star-half-empty
+    title: Branding
+    text:
+      Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.
+  - icon_class: fa fa-image
+    title: Photography
+    text:
+      Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.
+  - icon_class: fa fa-dot-circle-o
+    title: Marketing
+    text:
+      Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.
+milestones:
+  - from: 0
+    to: 69
+    title: Projects Completed
+  - from: 0
+    to: 726
+    title: Cups of coffee offered
+  - from: 0
+    to: 59
+    title: Happy clients
+  - from: 0
+    to: 21
+    title: Articles Published
+
+testimonials:
+  - text: "Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est."
+    author: David White
+    position: Designer at Huglab
+  - text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing."
+    author: David White
+    position: Designer at Huglab
+  - text: "Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est."
+    author: David White
+    position: Designer at Huglab
+
+clients:
+  - images/@stock/client-1.png
+  - images/@stock/client-2.png
+  - images/@stock/client-3.png
+  - images/@stock/client-4.png
+  - images/@stock/client-5.png
+  - images/@stock/client-6.png
+
+---
+
+<div class='advanced mod modDefaultSlider'>
+  <div class='sequence' data-autostop='on' data-timeout='0'>
+    <a class='sequence-prev' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <a class='sequence-next' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <ul class='sequence-pagination'>
+      {% for slide in page.slides %}
+        {% if forloop.index == 1 %}
+          <li class='current'></li>
+        {% else %}
+          <li></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <ul class='sequence-canvas'>
+      {% for slide in page.slides %}
+        {% if forloop.index == 1 %}
+          {% assign class = "static" %}
+        {% else %}
+          {% assign class = '' %}
+        {% endif %}
+
+        <li class='frame {{class}}'>
+          <div class='bg' style='background-image: url({{slide.bg}});'></div>
+          {% if slide.infos %}
+            {% for info in slide.infos %}
+              <div class='info{{forloop.index}} {{info.animation}}' style=''>
+                <div class='row'>
+                  <div class='medium-10 large-8 columns'>
+                    <p class='fa fa-check' style='color: #333;'>{{info.text}}</p>
+                    <div class='spacing'></div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          {% else %}
+            <div class='title {{slide.title.animation}}' style='color: rgb(255, 255, 255);'>
+              <div class='row'>
+                <div class='{{slide.title.class}} columns'>
+                  <h2>{{slide.title.text}}</h2>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+          <div class='buttons-wrapper {{slide.buttons.animation}}' style=''>
+            <div class='row'>
+              <div class='{{slide.buttons.class}} columns'>
+                <div class='two spacing'></div>
+                {% for button in slide.buttons.items %}
+                  <a target="_blank" class='button {{button.class}}' href='{{button.url}}'>{{button.text}}</a>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h4 style='color: #999'>Our history</h4>
+      <h2>This is some text about your team</h2>
+      <div class='spacing'></div>
+      <p>This is the text about your Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+    </div>
+  </div>
+  <div class='three spacing'></div>
+</div>
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modBoxedTextSlider'>
+        <div class='boxes'>
+          {% for box in page.boxes %}
+            <div class='box' style=''>
+              <i class='{{box.icon_class}}'></i>
+              <h4>{{box.title}}</h4>
+              <p>{{box.text}}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <img class="fadeinleft" width="500" height="340" alt="" src="images/@stock/macbook.png" />
+    </div>
+    <div class='medium-6 columns'>
+      <div class='spacing'></div>
+      <h4 style='color: #999'>We all love</h4>
+      <h2>Fully responsive</h2>
+      <div class='spacing'></div>
+      <p>This is the text about your Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+      <div class='spacing'></div>
+      <a class='button small' href='#'>Learn more</a>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <div class='two spacing'></div>
+      <h4 style='color: #999'>Simple</h4>
+      <h2>Easy to use</h2>
+      <div class='spacing'></div>
+      <ul class='shortcode-list'>
+        <li>
+          <i class='fa fa-check'></i>
+          This is a check list item, htis is a check list item
+        </li>
+        <li>
+          <i class='fa fa-check'></i>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit ipsum
+        </li>
+        <li>
+          <i class='fa fa-check'></i>
+          Sed diam nonummy nibh euismod tincidunt ut, lorem ipsum dolor sit amet
+        </li>
+        <li>
+          <i class='fa fa-check'></i>
+          Dolore magna aliquam erat volutpat consectetu amet magna adipiscing
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <a class='button small' href='#'>Learn more</a>
+    </div>
+    <div class='medium-6 columns'>
+      <img class="fadeinright" width="500" height="400" alt="" src="images/@stock/circle-1.png" />
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+
+
+<div class='full parallax' style='background: #f5f5f5'>
+  <div class='row'>
+    {% for milestone in page.milestones %}
+      <div class='medium-3 large-3 columns right-border left-border'>
+        <div class='mod modMilestone no-icon'>
+          <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'>&nbsp;</strong>
+          <span>{{milestone.title}}</span>
+          <div class='spacing'></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class='four spacing'></div>
+</div>
+<div class='full no-padding' style='background: #444; color: #fff'>
+  <div class='two spacing'></div>
+  <div class='mod modCallToAction'>
+    <div class='row'>
+      <div class='medium-9 large-9 columns'>
+        <p>Like what you see here? Checkout this theme and start to build your site immediately.</p>
+      </div>
+      <div class='medium-3 large-3 columns'>
+        <a class='boxed button' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Learn more</a>
+      </div>
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
+      </p>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modTestimonials'>
+        <div class='row'>
+          <div class='small-12 columns'>
+            <div class='items centered-text'>
+              {% for t in page.testimonials  %}
+                <div class='item'>
+                  <p class='quote'>{{t.text}}</p>
+                  <p class='author'>- {{t.author}}, {{t.position}}</p>
+                  <div class='two spacing'></div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class='spacing'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+<div class='full parallax' style='background-image: url(../images/@stock/customers-bg.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modClients' data-slides_to_show='4'>
+        <div class='clients'>
+          {% for client in page.clients %}
+            <div><img alt="" src="{{client}}" /></div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+
+
+

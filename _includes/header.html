@@ -1,0 +1,45 @@
+<a href="" id="top"></a>
+<div class='contain-to-grid sticky'>
+  <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
+    <ul class='title-area'>
+      <li class='name'>
+        <h1>
+          <a href="{{site.url}}/index.html">
+            <img alt="" src="{{site.url}}/images/logo-bordered.png" />
+          </a>
+        </h1>
+      </li>
+      <li class='toggle-topbar menu-icon'>
+        <a href='#'>Menu</a>
+      </li>
+    </ul>
+    <section class='top-bar-section'>
+      <ul class="right">
+        {% for item in site.data.nav %}
+          {% if item.section_id == page.section_id %}
+            {% assign active_class = "active" %}
+          {% else %}
+            {% assign active_class = "" %}
+          {% endif %}
+
+          {% if item.children %}
+            <li class="has-dropdown {{active_class}}">
+              <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+              <ul class='dropdown'>
+                {% for child in item.children %}
+                  <li>
+                    <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li class="{{active_class}}">
+              <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+  </nav>
+</div>

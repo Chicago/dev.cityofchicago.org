@@ -1,0 +1,172 @@
+---
+layout: default
+section_id: about
+skills:
+  - title: Web Design
+    percent: 84
+  - title: Web Development
+    percent: 95
+  - title: Site Management
+    percent: 70
+  - title: Branding
+    percent: 61
+
+testimonials:
+  - text: "Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est."
+    author: David White
+    position: Designer at Huglab
+    avatar: images/@stock/author-avatar-1.png
+  - text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing."
+    author: David White
+    position: Designer at Huglab
+    avatar: images/@stock/author-avatar-2.png
+  - text: "Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est."
+    author: David White
+    position: Designer at Huglab
+    avatar: images/@stock/author-avatar-3.png
+
+members:
+  - name: Mark Wayne
+    position: founder
+    desc:
+      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+    avatar: images/@stock/member-1.jpg
+    socials:
+      - icon_class: fa fa-twitter
+        url: http://twitter.com
+      - icon_class: fa fa-facebook
+        url: http://facebook.com
+  - name: Kate Holms
+    position: Creative Director
+    desc:
+      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+    avatar: images/@stock/member-2.jpg
+    socials:
+      - icon_class: fa fa-twitter
+        url: http://twitter.com
+      - icon_class: fa fa-facebook
+        url: http://facebook.com
+      - icon_class: fa fa-dribbble
+        url: http://dribbble.com
+  - name: Tom Hason
+    position: Designer
+    desc:
+      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+    avatar: images/@stock/member-3.jpg
+    socials:
+      - icon_class: fa fa-twitter
+        url: http://twitter.com
+      - icon_class: fa fa-facebook
+        url: http://facebook.com
+      - icon_class: fa fa-tumblr
+        url: http://tumblr.com
+  - name: Lily Whrem
+    position: Developer
+    desc:
+      consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit.
+    avatar: images/@stock/member-4.jpg
+    socials:
+      - icon_class: fa fa-twitter
+        url: http://twitter.com
+      - icon_class: fa fa-facebook
+        url: http://facebook.com
+---
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h4 style='color: #999'>We are pround of</h4>
+      <h2>Our history</h2>
+      <div class='spacing'></div>
+      <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+    </div>
+  </div>
+  <div class='three spacing'></div>
+</div>
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <h3>Our skills</h3>
+      <div class='spacing'></div>
+      <div class='mod modBarGraph'>
+        <ul class='bars'>
+          {% for skill in page.skills %}
+            <li>
+              <h4 style=''>
+                {{skill.title}}
+                <strong>{{skill.percent}}%</strong>
+              </h4>
+              <p class='highlighted' data-percent='{{skill.percent}}'></p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class='medium-6 columns'>
+      <h3>The testimonials</h3>
+      <div class='mod modTestimonials simple'>
+        <div class='row'>
+          <div class='small-12 columns'>
+            <div class='items'>
+              {% for t in page.testimonials %}
+                <div class='item'>
+                  <p class='quote'>{{t.text}}</p>
+                  <div class='author'>
+                    <p class='author-avatar'>
+                      <img alt="" src="{{t.avatar}}" />
+                    </p>
+                    <p class='author-name'>
+                      -
+                      <strong>
+                        {{t.author}}
+                      </strong>
+                      , {{t.position}}
+                    </p>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h3>Our team</h3>
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    {% for member in page.members %}
+      <div class='small-6 medium-3 large-3 columns'>
+        <div class='mod modTeamMember style-2'>
+          <div class='member'>
+            <img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}" />
+            <div class='overlay'>
+              <ul class='socials'>
+                {% for social in member.socials %}
+                  <li>
+                    <a href='{{social.url}}'>
+                      <i class='{{social.icon_class}}'></i>
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+          <h3>{{member.name}}</h3>
+          <p class='position'>{{member.position}}</p>
+          <p>{{member.desc}}</p>
+          <div class='two spacing'></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class='three spacing'></div>
+</div>
