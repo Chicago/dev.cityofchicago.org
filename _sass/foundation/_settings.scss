@@ -90,7 +90,7 @@ $row-width: rem-calc(1120);
 
 // We use these to define default font stacks
 $font-family-sans-serif: Raleway, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-// $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+$font-family-serif: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
@@ -128,7 +128,7 @@ $info-color: #5495A1;
 // We use these to control various global styles
 // $body-bg: $white;
 $body-font-color: $jet;
-// $body-font-family: $font-family-sans-serif;
+$body-font-family: $font-family-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 
@@ -1381,7 +1381,7 @@ $glowing-effect-color: none;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-$topbar-bg-color: #fff;
+$topbar-bg-color: $secondary-color;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
