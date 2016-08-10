@@ -5,7 +5,7 @@
       <li class='name'>
         <h1>
           <a href="{{site.url}}/index.html">
-            <img alt="" src="{{site.url}}/images/chicago-seal-75-200.png" />
+            <img alt="" src="{{site.url}}{{ base.url }}images/chicago-seal-75-200.png" />
           </a>
         </h1>
       </li>
@@ -24,18 +24,18 @@
 
           {% if item.children %}
             <li class="has-dropdown {{active_class}}">
-              <a href="{{site.url}}{{ base.url }}{{ item.path }}">{{ item.name }}</a>
+              <a href="{{site.url}}/{{ base.url }}/{{ item.path }}">{{ item.name }}</a>
               <ul class='dropdown'>
                 {% for child in item.children %}
                   <li>
-                    <a href="{{site.url}}{{ base.url }}{{ child.path }}">{{ child.name }}</a>
+                    <a href="{{site.url}}/{{ base.url }}/{{ child.path }}">{{ child.name }}</a>
                   </li>
                 {% endfor %}
               </ul>
             </li>
           {% else %}
             <li class="{{active_class}}">
-              <a href="{{site.url}}{{ base.url }}{{ item.path }}">{{ item.name }}</a>
+              <a href="{{site.url}}/{{ base.url }}/{{ item.path }}">{{ item.name }}</a>
             </li>
           {% endif %}
         {% endfor %}
