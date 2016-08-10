@@ -90,7 +90,7 @@ $row-width: rem-calc(1120);
 
 // Import fonts
 @font-face {
-  font-face('Rockwell',
+  font-family: 'Rockwell';
   src: url('/fonts/rockwell.eot'); /* IE9 Compatible */
   src: url('/fonts/rockwell.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('/fonts/rockwell.woff') format('woff'), 

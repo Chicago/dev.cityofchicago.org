@@ -6,6 +6,16 @@
 
 $include-html-type-classes: $include-html-classes !default;
 
+// Import fonts
+@font-face {
+  font-family: 'Rockwell';
+  src: url('/fonts/rockwell.eot'); /* IE9 Compatible */
+  src: url('/fonts/rockwell.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/rockwell.woff') format('woff'), 
+       url('fonts/rockwell.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/rockwell.svg') format('svg'); /* Legacy iOS */
+}
+
 // We use these to control header font styles
 $header-font-family: $body-font-family !default;
 $header-font-weight: $font-weight-normal !default;
