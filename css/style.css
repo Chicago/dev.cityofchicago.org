@@ -15,15 +15,6 @@
   font-weight: bold;
 }
 
-@font-face {
-  font-face('Rockwell',
-  src: url('/fonts/rockwell.eot'); /* IE9 Compatible */
-  src: url('/fonts/rockwell.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/rockwell.woff') format('woff'), 
-       url('fonts/rockwell.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('fonts/rockwell.svg') format('svg'); /* Legacy iOS */
-}
-
 @include font-face('futura_md_btbold',
   font-files("fonts/futurabc-webfont.woff", "fonts/futurabc-webfont.ttf"),
   $eot: "fonts/futurabc-webfont.eot");
