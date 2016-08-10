@@ -4,23 +4,24 @@
     <div class='large-3 medium-3 columns'>
       <h1>
         <a href='index.html'>
-          <img alt="" src="{{site.url}}/images/logo-grey.png" />
+          <img alt="" src="{{site.url}}/images/chicago-seal-100-square.png" />
         </a>
       </h1>
-      <p>©2014 {{site.title}}. All rights reserved.</p>
+      <p>©2016 City of Chicago. <br />Licensed under Creative Commons Attribution 4.0 (CC BY 4.0).</p>
       <div class='spacing'></div>
       <div class='spacing'></div>
     </div>
     <div class='large-3 medium-3 columns'>
       <div class='spacing'></div>
       <div class='links'>
-        <h4>Some pages</h4>
+        <h4>Resources</h4>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="portfolio.html">View some works here</a></li>
-          <li><a href="blog.html">Follow our blog</a></li>
-          <li><a href="contact.html">Contact us</a></li>
-          <li><a href="services.html">Our services</a></li>
+          <li><a href="http://dev.cityofchicago.org/docs/api">Open311 API</a></li>
+          <li><a href="https://dev.socrata.com/consumers/getting-started.html">Open Data API Docs</a></li>
+          <li><a href="http://www.transitchicago.com/developers/default.aspx">Bus, Trains &amp; Alerts APIs</a></li>
+          <li><a href="http://api1.chicagopolice.org/clearpath/documentation">Police Department API</a></li>
+          <li><a href="http://feeds.divvybikes.com/stations/stations.json">DIVVY bike API</a></li>
+          <li><a href="http://digital.cityofchicago.org">Digital Chicago</a></li>
         </ul>
       </div>
       <div class='spacing'></div>
@@ -28,7 +29,7 @@
     <div class='large-3 medium-3 columns'>
       <div class='spacing'></div>
       <div class='links'>
-        <h4>Recent posts</h4>
+        <h4>Developer Blog</h4>
         <ul>
           {% for post in site.posts %}
             <li><a href="{{post.url}}">{{post.title}}</a></li>
@@ -40,31 +41,26 @@
     <div class='large-3 medium-3 columns'>
       <div class='spacing'></div>
       <h4>Contact us</h4>
-      <ul>
-        <li>Phone: +86 (03) 9810 4612</li>
-        <li>Emial: info@devoll-team.com</li>
-        <li>Location: 41 Dean Street, London, UK</li>
-      </ul>
       <div class='spacing'></div>
       <ul class='socials'>
         <li>
-          <a href='http://facebook.com'>
-            <i class='fa fa-facebook'></i>
-          </a>
-        </li>
-        <li>
-          <a href='http://twitter.com'>
+          <a href='https://www.twitter.com/ChicagoCDO'>
             <i class='fa fa-twitter'></i>
           </a>
         </li>
         <li>
-          <a href='http://dribbble.com'>
-            <i class='fa fa-dribbble'></i>
+          <a href='https://www.github.com/Chicago'>
+            <i class='fa fa-github-alt'></i>
           </a>
         </li>
         <li>
-          <a href='http://tumblr.com'>
-            <i class='fa fa-tumblr'></i>
+          <a href='mailto:developers@cityofchicago.org'>
+            <i class='fa fa-envelope-o'></i>
+          </a>
+        </li>
+        <li>
+          <a href='http://digital.cityofchicago.org'>
+            <i class='fa fa-home'></i>
           </a>
         </li>
       </ul>
