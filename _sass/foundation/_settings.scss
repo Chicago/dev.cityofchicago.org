@@ -88,6 +88,15 @@ $row-width: rem-calc(1120);
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
+// Import fonts instead of relying on local devices
+@include font-face('Rockwell',
+  font-files("fonts/rockwell.woff", "fonts/rockwell.ttf", "fonts/rockwell.svg"),
+  $eot: "fonts/rockwell.eot");
+
+@include font-face('futura_md_btbold',
+  font-files("fonts/futurabc-webfont.woff", "fonts/futurabc-webfont.ttf"),
+  $eot: "fonts/futurabc-webfont.eot");
+
 // We use these to define default font stacks
 $font-family-sans-serif: Raleway, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 $font-family-serif: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
