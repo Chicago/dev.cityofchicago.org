@@ -17,6 +17,9 @@
 - name: Contact
   path: contact.html
   section_id: contact
+- name: GitHub
+  path: https://www.github.com/Chicago
+  section_id: github
 - name: Blog
   path: blog/
   section_id: blog
