@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Elbe</title>
+  <title>Dev Chicago</title>
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
+  <link rel="stylesheet" href="/css/style.css"> <!-- temporary placement because of issues -->
   <link rel="stylesheet" href="/css/foundation.css">
-  <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/fontello.css">
   <link rel="stylesheet" href="/css/font-awesome.css">
 
@@ -38,20 +38,20 @@
   <script src="/javascripts/slick.min.js" type="text/javascript"></script>
 
   <link rel="canonical" href="/">
-  <link rel="alternate" type="application/rss+xml" title="Elbe" href="/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Dev Chicago" href="/feed.xml" />
 </head>
 
 
   <body>
 
     <a href="" id="top"></a>
-<div class='contain-to-grid sticky'>
+<div class='contain-to-grid.shadowless sticky'>
   <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
     <ul class='title-area'>
       <li class='name'>
         <h1>
           <a href="/index.html">
-            <img alt="" src="/images/logo-bordered.png" />
+            <img alt="" src="/images/chicago-seal-75-200.png" />
           </a>
         </h1>
       </li>
@@ -63,8 +63,6 @@
       <ul class="right">
         
           
-            
-          
 
           
             <li class="active">
@@ -73,48 +71,36 @@
           
         
           
-            
-          
-
-          
-            <li class="">
-              <a href="/about.html">About</a>
-            </li>
-          
-        
-          
-            
-          
-
-          
-            <li class="">
-              <a href="/services.html">Services</a>
-            </li>
-          
-        
-          
-            
-          
 
           
             <li class="has-dropdown ">
-              <a href="/portfolio.html">Portfolio</a>
+              <a href="/">Docs</a>
               <ul class='dropdown'>
                 
                   <li>
-                    <a href="/portfolio.html">Portfolio</a>
+                    <a href="/docs/open311.html">Open311</a>
                   </li>
                 
                   <li>
-                    <a href="/portfolio-item.html">Portfolio item</a>
+                    <a href="/https://dev.socrata.com">Open Data Portal</a>
+                  </li>
+                
+                  <li>
+                    <a href="/http://api1.chicagopolice.org/clearpath/documentation">ClearPath API</a>
+                  </li>
+                
+                  <li>
+                    <a href="/http://www.transitchicago.com/developers/">Bus, Trains &amp; Alerts</a>
+                  </li>
+                
+                  <li>
+                    <a href="/http://feeds.divvybikes.com/stations/stations.json">DIVVY API</a>
                   </li>
                 
               </ul>
             </li>
           
         
-          
-            
           
 
           
@@ -123,8 +109,6 @@
             </li>
           
         
-          
-            
           
 
           
@@ -165,16 +149,14 @@
     <ul class='sequence-canvas'>
       
         
-          
-        
 
         <li class='frame static'>
-          <div class='bg' style='background-image: url(images/@stock/slide-2.jpg);'></div>
+          <div class='bg' style='background-image: url(images/wicker-park-train.jpg);'></div>
           
             <div class='title bottom-to-top' style='color: rgb(255, 255, 255);'>
               <div class='row'>
                 <div class='large-8 medium-11 columns'>
-                  <h2>Wrap is a creative theme for many purposes</h2>
+                  <h2>Connect to transit data</h2>
                 </div>
               </div>
             </div>
@@ -184,7 +166,7 @@
               <div class='medium-12 columns'>
                 <div class='two spacing'></div>
                 
-                  <a target="_blank" class='button boxed' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Purchase Now</a>
+                  <a target="_blank" class='button boxed' href='http://www.transitchicago.com/developers/traintracker.aspx'>API Docs</a>
                 
               </div>
             </div>
@@ -192,16 +174,14 @@
         </li>
       
         
-          
-        
 
         <li class='frame '>
-          <div class='bg' style='background-image: url(images/@stock/slide-3.jpg);'></div>
+          <div class='bg' style='background-image: url(images/loop.jpg);'></div>
           
             <div class='title bottom-to-top' style='color: rgb(255, 255, 255);'>
               <div class='row'>
                 <div class='large-7 large-offset-5 medium-9 medium-offset-3 columns'>
-                  <h2>It is simple but powerful</h2>
+                  <h2>Open data for researchers &amp; developers</h2>
                 </div>
               </div>
             </div>
@@ -211,7 +191,9 @@
               <div class='large-7 large-offset-5 medium-9 medium-offset-3 columns'>
                 <div class='two spacing'></div>
                 
-                  <a target="_blank" class='button boxed' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Purchase Now</a>
+                  <a target="_blank" class='button boxed' href='https://data.cityofchicago.org'>Visit Portal</a>
+                
+                  <a target="_blank" class='button ' href='http://dev.socrata.com'>View API Docs</a>
                 
               </div>
             </div>
@@ -219,17 +201,15 @@
         </li>
       
         
-          
-        
 
         <li class='frame '>
-          <div class='bg' style='background-image: url(images/@stock/slide-6.jpg);'></div>
+          <div class='bg' style='background-image: url(images/construction.jpg);'></div>
           
             
               <div class='info1 bottom-to-top' style=''>
                 <div class='row'>
                   <div class='medium-10 large-8 columns'>
-                    <p class='fa fa-check' style='color: #333;'>&nbsp;Creative and responsive design</p>
+                    <p class='fa fa-check' style='color: #333;'>&nbsp;Open new 311 service requests via an API</p>
                     <div class='spacing'></div>
                   </div>
                 </div>
@@ -238,7 +218,7 @@
               <div class='info2 bottom-to-top' style=''>
                 <div class='row'>
                   <div class='medium-10 large-8 columns'>
-                    <p class='fa fa-check' style='color: #333;'>&nbsp;Many helpful shortcodes</p>
+                    <p class='fa fa-check' style='color: #333;'>&nbsp;Track existing requests</p>
                     <div class='spacing'></div>
                   </div>
                 </div>
@@ -247,7 +227,7 @@
               <div class='info3 bottom-to-top' style=''>
                 <div class='row'>
                   <div class='medium-10 large-8 columns'>
-                    <p class='fa fa-check' style='color: #333;'>&nbsp;Simple but powerful theme options</p>
+                    <p class='fa fa-check' style='color: #333;'>&nbsp;Upload photos of problems</p>
                     <div class='spacing'></div>
                   </div>
                 </div>
@@ -256,7 +236,7 @@
               <div class='info4 bottom-to-top' style=''>
                 <div class='row'>
                   <div class='medium-10 large-8 columns'>
-                    <p class='fa fa-check' style='color: #333;'>&nbsp;Fully responsive</p>
+                    <p class='fa fa-check' style='color: #333;'>&nbsp;Close requests when city completes work</p>
                     <div class='spacing'></div>
                   </div>
                 </div>
@@ -268,9 +248,9 @@
               <div class='large-12 columns'>
                 <div class='two spacing'></div>
                 
-                  <a target="_blank" class='button boxed' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>View Features</a>
+                  <a target="_blank" class='button boxed' href='http://dev.cityofchicago.org/docs/api'>Open311 API Docs</a>
                 
-                  <a target="_blank" class='button ' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Purchase Now</a>
+                  <a target="_blank" class='button ' href='http://servicetracker.cityofchicago.org'>Service Tracker</a>
                 
               </div>
             </div>
@@ -283,48 +263,48 @@
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
-      <h4 style='color: #999'>Our history</h4>
-      <h2>This is some text about your team</h2>
+      <h4 style='color: #999'>Develop your city</h4>
+      <h2>Technology tools you can use</h2>
       <div class='spacing'></div>
-      <p>This is the text about your Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+      <p>City of Chicago has multiple technology tools that you can use to connect residents to the city. Robust open data can inform you of recent activity anywhere in the city, whether it is crime, licenses, or arriving buses. Some of our APIs also let you communicate to city officials, such as the Open311 API that lets you open service requests or the ClearPath API that lets users submit tips or see upcoming community meetings. This page connects you to the documentation to help developers create tools for their neighbors.</p>
     </div>
   </div>
   <div class='three spacing'></div>
 </div>
-<div class='full' style='background: #f5f5f5'>
+<div class='full' style='background: #C0E6F5'>
   <div class='row'>
     <div class='large-12 columns'>
       <div class='mod modBoxedTextSlider'>
         <div class='boxes'>
           
             <div class='box' style=''>
-              <i class='fa fa-trophy'></i>
-              <h4>Design</h4>
-              <p>Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.</p>
+              <i class='fa fa-bus'></i>
+              <h4>Transit Authority APIs</h4>
+              <p>Track the city buses, trains, advisories, and scheduled stops. See documentation on Chicago Transit Authority's <a href="http://www.transitchicago.com/developers/traintracker.aspx">Train Tracker</a>, <a href="http://www.transitchicago.com/developers/bustracker.aspx">Bus Tracker</a>, <a href="http://www.transitchicago.com/developers/alerts.aspx">customer alerts</a> and <a href="http://www.transitchicago.com/developers/gtfs.aspx">scheduled stops (GTFS)</a> at CTA's Developer Center.</p>
             </div>
           
             <div class='box' style=''>
-              <i class='fa fa-compass'></i>
-              <h4>Art direction</h4>
-              <p>Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.</p>
+              <i class='fa fa-road'></i>
+              <h4>Open311 Service Tracker</h4>
+              <p>Develop applications that can <a href="http://dev.cityofchicago.org/docs/api">open and close 311 requests for services</a> in the city ranging from filling potholes to fixing broken streetlights. Over a dozen services can be requested using the API that follows the Open311 API specification used by a dozen other cities.</p>
             </div>
           
             <div class='box' style=''>
-              <i class='fa fa-star-half-empty'></i>
-              <h4>Branding</h4>
-              <p>Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.</p>
+              <i class='fa fa-database'></i>
+              <h4>Open Data Portal API</h4>
+              <p>Chicago's <a href="https://dev.socrata.com/consumers/getting-started.html">Open Data Portal</a> contains 600 data sets ranging from crimes to beach water quality. The portal is hosted by Socrata, which has a robust API to quickly retrieve and query data. The Socrata Open Data API (SODA) documentation provides a great overview of the API with plenty of examples and <a href="https://dev.socrata.com/libraries/">SDK's</a> for a handful of popular programming languages.</p>
             </div>
           
             <div class='box' style=''>
-              <i class='fa fa-image'></i>
-              <h4>Photography</h4>
-              <p>Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.</p>
+              <i class='fa fa-bicycle'></i>
+              <h4>DIVVY Bike Stations</h4>
+              <p>DIVVY bikeshare program is the largest in the world. <a href="http://feeds.divvybikes.com/stations/stations.json">This API endpoint</a> provides the availability of bicycles at each DIVVY station across the city. It is updated every minute and great for those who want to build a DIVVY app. Historical DIVVY <a href="https://data.cityofchicago.org/Transportation/Divvy-Bicycle-Stations-Historical/eq45-8inv">bike availability</a> and <a href="https://data.cityofchicago.org/Transportation/Divvy-Trips-Dashboard/u94x-unre">bicycle trips</a> are available on the <a href="https://data.cityofchicago.org/">Open Data Portal</a>.</p>
             </div>
           
             <div class='box' style=''>
-              <i class='fa fa-dot-circle-o'></i>
-              <h4>Marketing</h4>
-              <p>Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.</p>
+              <i class='fa fa-tty'></i>
+              <h4>Chicago Police APIs</h4>
+              <p><a href="http://api1.chicagopolice.org/clearpath/documentation">A set of beta APIs</a> that allows developers to build applications that can submit anonymous tips, display mugshots, list the most wanted individuals, and a list of community events where you can meet your local community police captain. Maintained by the Chicago Police Department.</p>
             </div>
           
         </div>
@@ -340,48 +320,48 @@
 <div class='full'>
   <div class='row'>
     <div class='medium-6 columns'>
-      <img class="fadeinleft" width="500" height="340" alt="" src="images/@stock/macbook.png" />
+      <img class="fadeinleft" width="500" height="340" alt="" src="images/Octocat-500-430.png" />
     </div>
     <div class='medium-6 columns'>
       <div class='spacing'></div>
-      <h4 style='color: #999'>We all love</h4>
-      <h2>Fully responsive</h2>
+      <h4 style='color: #999'>We love</h4>
+      <h2>Collaboration</h2>
       <div class='spacing'></div>
-      <p>This is the text about your Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+      <p>Visit the City of Chicago's GitHub page to see over a dozen open source projects maintained by the city. Many of sites and tools are used by residents every day and often used by other cities or researchers. You don't only help your city, but you also help your neighbors and other people.</p>
       <div class='spacing'></div>
-      <a class='button small' href='#'>Learn more</a>
+      <a class='button small' href='#'>Contribute</a>
     </div>
   </div>
   <div class='four spacing'></div>
   <div class='row'>
     <div class='medium-6 columns'>
       <div class='two spacing'></div>
-      <h4 style='color: #999'>Simple</h4>
-      <h2>Easy to use</h2>
+      <h4 style='color: #999'>Featured Project</h4>
+      <h2>OpenGrid</h2>
       <div class='spacing'></div>
       <ul class='shortcode-list'>
         <li>
           <i class='fa fa-check'></i>
-          This is a check list item, htis is a check list item
+          Opportunity for front-end developers to improve user experience
         </li>
         <li>
           <i class='fa fa-check'></i>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit ipsum
+          Data scientists can incorporate natural language processing for better searching
         </li>
         <li>
           <i class='fa fa-check'></i>
-          Sed diam nonummy nibh euismod tincidunt ut, lorem ipsum dolor sit amet
+          Write unit tests to improve reliability
         </li>
         <li>
           <i class='fa fa-check'></i>
-          Dolore magna aliquam erat volutpat consectetu amet magna adipiscing
+          Application is used by thousands of users, including the public and city staff
         </li>
       </ul>
       <div class='spacing'></div>
-      <a class='button small' href='#'>Learn more</a>
+      <a class='button small' href='www.opengrid.io'>Learn more</a>
     </div>
     <div class='medium-6 columns'>
-      <img class="fadeinright" width="500" height="400" alt="" src="images/@stock/circle-1.png" />
+      <img class="fadeinright" width="500" height="400" alt="" src="images/opengrid-desktop.png" />
     </div>
   </div>
   <div class='four spacing'></div>
@@ -395,32 +375,32 @@
     
       <div class='medium-3 large-3 columns right-border left-border'>
         <div class='mod modMilestone no-icon'>
-          <strong data-from='0' data-to='69'>&nbsp;</strong>
-          <span>Projects Completed</span>
+          <strong data-from='0' data-to='2800000'>&nbsp;</strong>
+          <span>Chicago Residents</span>
           <div class='spacing'></div>
         </div>
       </div>
     
       <div class='medium-3 large-3 columns right-border left-border'>
         <div class='mod modMilestone no-icon'>
-          <strong data-from='0' data-to='726'>&nbsp;</strong>
-          <span>Cups of coffee offered</span>
+          <strong data-from='0' data-to='580'>&nbsp;</strong>
+          <span>Data sets on Open Data Portal</span>
           <div class='spacing'></div>
         </div>
       </div>
     
       <div class='medium-3 large-3 columns right-border left-border'>
         <div class='mod modMilestone no-icon'>
-          <strong data-from='0' data-to='59'>&nbsp;</strong>
-          <span>Happy clients</span>
+          <strong data-from='0' data-to='16000'>&nbsp;</strong>
+          <span>Open311 API Calls</span>
           <div class='spacing'></div>
         </div>
       </div>
     
       <div class='medium-3 large-3 columns right-border left-border'>
         <div class='mod modMilestone no-icon'>
-          <strong data-from='0' data-to='21'>&nbsp;</strong>
-          <span>Articles Published</span>
+          <strong data-from='0' data-to='38709060'>&nbsp;</strong>
+          <span>Open Data page views</span>
           <div class='spacing'></div>
         </div>
       </div>
@@ -433,10 +413,10 @@
   <div class='mod modCallToAction'>
     <div class='row'>
       <div class='medium-9 large-9 columns'>
-        <p>Like what you see here? Checkout this theme and start to build your site immediately.</p>
+        <p>Have questions? Don't hestiate to reach out and contact us.</p>
       </div>
       <div class='medium-3 large-3 columns'>
-        <a class='boxed button' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Learn more</a>
+        <a class='boxed button' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Contact us</a>
       </div>
     </div>
   </div>
@@ -458,20 +438,20 @@
             <div class='items centered-text'>
               
                 <div class='item'>
-                  <p class='quote'>Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est.</p>
-                  <p class='author'>- David White, Designer at Huglab</p>
+                  <p class='quote'>In Chicago, we believe that the power of technology is driven by the people who use and benefit from it.</p>
+                  <p class='author'>- Chicago Tech Plan, 2015</p>
                   <div class='two spacing'></div>
                 </div>
               
                 <div class='item'>
-                  <p class='quote'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-                  <p class='author'>- David White, Designer at Huglab</p>
+                  <p class='quote'>Technology has the potential to propel Chicago to a future where government is increasingly transparent and effective and business is thriving.</p>
+                  <p class='author'>- Rahm Emanuel, Mayor of Chicago</p>
                   <div class='two spacing'></div>
                 </div>
               
                 <div class='item'>
-                  <p class='quote'>Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est.</p>
-                  <p class='author'>- David White, Designer at Huglab</p>
+                  <p class='quote'>Using data provided through an open, transparent government, the City is able to engage its residents in innovative ways available only to cities with this foundation of technology strength.</p>
+                  <p class='author'>- Chicago Tech Plan, Civic Innovation Strategy</p>
                   <div class='two spacing'></div>
                 </div>
               
@@ -484,23 +464,21 @@
   </div>
   <div class='four spacing'></div>
 </div>
-<div class='full parallax' style='background-image: url(../images/@stock/customers-bg.jpg); color: #fff;'>
+<div class='full parallax' style='background-image: url(../images/aqua-building.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
       <div class='mod modClients' data-slides_to_show='4'>
         <div class='clients'>
           
-            <div><img alt="" src="images/@stock/client-1.png" /></div>
+            <div><img alt="" src="images/cta-logo.png" /></div>
           
-            <div><img alt="" src="images/@stock/client-2.png" /></div>
+            <div><img alt="" src="images/caps-logo.png" /></div>
           
-            <div><img alt="" src="images/@stock/client-3.png" /></div>
+            <div><img alt="" src="images/divvy-logo.png" /></div>
           
-            <div><img alt="" src="images/@stock/client-4.png" /></div>
+            <div><img alt="" src="images/city-seal-200-square.png" /></div>
           
-            <div><img alt="" src="images/@stock/client-5.png" /></div>
-          
-            <div><img alt="" src="images/@stock/client-6.png" /></div>
+            <div><img alt="" src="images/service-tracker-logo.png" /></div>
           
         </div>
       </div>
@@ -521,23 +499,24 @@
     <div class='large-3 medium-3 columns'>
       <h1>
         <a href='index.html'>
-          <img alt="" src="/images/logo-grey.png" />
+          <img alt="" src="/images/chicago-seal-100-square.png" />
         </a>
       </h1>
-      <p>©2014 Elbe. All rights reserved.</p>
+      <p>©2016 City of Chicago. <br />Licensed under Creative Commons Attribution 4.0 (CC BY 4.0).</p>
       <div class='spacing'></div>
       <div class='spacing'></div>
     </div>
     <div class='large-3 medium-3 columns'>
       <div class='spacing'></div>
       <div class='links'>
-        <h4>Some pages</h4>
+        <h4>Resources</h4>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="portfolio.html">View some works here</a></li>
-          <li><a href="blog.html">Follow our blog</a></li>
-          <li><a href="contact.html">Contact us</a></li>
-          <li><a href="services.html">Our services</a></li>
+          <li><a href="http://dev.cityofchicago.org/docs/api">Open311 API</a></li>
+          <li><a href="https://dev.socrata.com/consumers/getting-started.html">Open Data API Docs</a></li>
+          <li><a href="http://www.transitchicago.com/developers/default.aspx">Bus, Trains &amp; Alerts APIs</a></li>
+          <li><a href="http://api1.chicagopolice.org/clearpath/documentation">Police Department API</a></li>
+          <li><a href="http://feeds.divvybikes.com/stations/stations.json">DIVVY bike API</a></li>
+          <li><a href="http://digital.cityofchicago.org">Digital Chicago</a></li>
         </ul>
       </div>
       <div class='spacing'></div>
@@ -545,18 +524,14 @@
     <div class='large-3 medium-3 columns'>
       <div class='spacing'></div>
       <div class='links'>
-        <h4>Recent posts</h4>
+        <h4>Developer Blog</h4>
         <ul>
           
-            <li><a href="/design/2015/05/06/tom-is-designing-the-new-site.html">Tom is designing the new site</a></li>
+            <li><a href="/data%20portal/open%20data/2014/05/15/deprecating-community-area-attachments.html">Deprecating Community Area attachment datasets on May 30</a></li>
           
-            <li><a href="/logo%20design/tricks%20and%20tips/2015/05/04/make-some-sketches.html">Make some sketches</a></li>
+            <li><a href="/data%20portal/open%20data/2014/05/15/building-permits-not-updating.html">Building Permits not updating</a></li>
           
-            <li><a href="/illustrations/photography/2015/05/03/look-what-we-have-done.html">Look what we have done</a></li>
-          
-            <li><a href="/web%20design/web%20development/2015/05/03/a-post-without-image.html">A post without image</a></li>
-          
-            <li><a href="/jekyll/update/2015/05/02/welcome-to-jekyll.html">Welcome to Jekyll!</a></li>
+            <li><a href="/data%20portal/open%20data/2014/05/15/hello-world.html">Hello world!</a></li>
           
         </ul>
       </div>
@@ -565,31 +540,26 @@
     <div class='large-3 medium-3 columns'>
       <div class='spacing'></div>
       <h4>Contact us</h4>
-      <ul>
-        <li>Phone: +86 (03) 9810 4612</li>
-        <li>Emial: info@devoll-team.com</li>
-        <li>Location: 41 Dean Street, London, UK</li>
-      </ul>
       <div class='spacing'></div>
       <ul class='socials'>
         <li>
-          <a href='http://facebook.com'>
-            <i class='fa fa-facebook'></i>
-          </a>
-        </li>
-        <li>
-          <a href='http://twitter.com'>
+          <a href='https://www.twitter.com/ChicagoCDO'>
             <i class='fa fa-twitter'></i>
           </a>
         </li>
         <li>
-          <a href='http://dribbble.com'>
-            <i class='fa fa-dribbble'></i>
+          <a href='https://www.github.com/Chicago'>
+            <i class='fa fa-github-alt'></i>
           </a>
         </li>
         <li>
-          <a href='http://tumblr.com'>
-            <i class='fa fa-tumblr'></i>
+          <a href='mailto:developers@cityofchicago.org'>
+            <i class='fa fa-envelope-o'></i>
+          </a>
+        </li>
+        <li>
+          <a href='http://digital.cityofchicago.org'>
+            <i class='fa fa-home'></i>
           </a>
         </li>
       </ul>
