@@ -88,20 +88,8 @@ $row-width: rem-calc(1120);
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// Import fonts
-@font-face {
-  font-family: 'Rockwell';
-  src: url('/fonts/rockwell.eot'); /* IE9 Compatible */
-  src: url('/fonts/rockwell.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/rockwell.woff') format('woff'), 
-       url('fonts/rockwell.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('fonts/rockwell.svg') format('svg'); /* Legacy iOS */
-}
-
-
-
 // We use these to define default font stacks
-$font-family-sans-serif: Raleway, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-serif: 'Avenir Next', futurabc, futura_md_btbold, "Source Sans Pro", sans-serif;
 $font-family-serif: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
