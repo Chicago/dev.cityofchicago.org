@@ -4,7 +4,7 @@
 - name: Docs
   section_id: docs
   children:
-    - name: Open311
+    - name: Open 311
       path: docs/open311.html
     - name: Open Data Portal
       path: https://dev.socrata.com
