@@ -1,0 +1,11 @@
+---
+layout: post
+title: New columns in Chicago Early Learning Programs
+date: '2015-07-24T11:27:07-05:00'
+tags:
+- revision
+- ck29-hb9r
+- improvement
+tumblr_url: http://chicagoportalstatus.tumblr.com/post/124925095065/new-columns-in-chicago-early-learning-programs
+---
+We have added two columns to the Chicago Early Learning Programs dataset. In addition to the previously existing “Ages Served” column, there are now checkbox (true/false) columns indicating whether ages 0-3 and/or 3-5 are served.
