@@ -16,12 +16,20 @@
       <div class='links'>
         <h4>Resources</h4>
         <ul>
-          <li><a href="http://dev.cityofchicago.org/docs/api">Open311 API</a></li>
-          <li><a href="https://dev.socrata.com/consumers/getting-started.html">Open Data API Docs</a></li>
-          <li><a href="http://www.transitchicago.com/developers/default.aspx">Bus, Trains &amp; Alerts APIs</a></li>
-          <li><a href="http://api1.chicagopolice.org/clearpath/documentation">Police Department API</a></li>
-          <li><a href="http://feeds.divvybikes.com/stations/stations.json">DIVVY bike API</a></li>
-          <li><a href="http://digital.cityofchicago.org">Digital Chicago</a></li>
+          {% for item in site.data.nav %}
+            {% if item.children %}
+              {% for child in item.children %}
+                {% if child.path contains 'http' %}
+                  {% assign domain = '' %}
+                {% else %}
+                  {% assign domain = site.url %}
+                {% endif %}
+                  <li>
+                    <a href="{{ domain }}{{ child.path }}">{{ child.name }}</a>
+                  </li>
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
         </ul>
       </div>
       <div class='spacing'></div>
@@ -32,7 +40,7 @@
         <h4>Developer Blog</h4>
         <ul>
           {% for post in site.posts limit: 5 %}
-            <li><a href="{{post.url}}">{{post.title}}</a></li>
+            <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
       </div>

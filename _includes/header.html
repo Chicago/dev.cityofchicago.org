@@ -4,8 +4,8 @@
     <ul class='title-area'>
       <li class='name'>
         <h1>
-          <a href="{{site.url}}/index.html">
-            <img alt="" src="{{site.url}}/images/chicago-seal-75-200.png" />
+          <a href="{{ site.url }}index.html">
+            <img alt="" src="{{ site.url }}images/chicago-seal-75-200.png" />
           </a>
         </h1>
       </li>
@@ -19,24 +19,34 @@
           {% if item.section_id == page.section_id %}
             {% assign active_class = "active" %}
           {% else %}
-            {% assign active_class = "" %}
+            {% assign active_class = '' %}
           {% endif %}
 
           {% if item.children %}
             <li class="has-dropdown {{active_class}}">
-              <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+              <a href="{{ domain }}{{ item.path }}">{{ item.name }}</a>
               <ul class='dropdown'>
                 {% for child in item.children %}
+                  {% if child.path contains 'http' %}
+                    {% assign domain = '' %}
+                  {% else %}
+                    {% assign domain = site.url %}
+                  {% endif %}
                   <li>
-                    <a href="{{ child.path }}">{{ child.name }}</a>
+                    <a href="{{ domain }}{{ child.path }}">{{ child.name }}</a>
                   </li>
                 {% endfor %}
               </ul>
             </li>
           {% else %}
-            <li class="{{active_class}}">
-              <a href="{{ item.path }}">{{ item.name }}</a>
-            </li>
+            {% if item.path contains 'http' %}
+              {% assign domain = '' %}
+              {% else %}
+              {% assign domain = site.url %}
+            {% endif %}
+                <li class="{{active_class}}">
+                  <a href="{{ domain }}{{ item.path }}">{{ item.name }}</a>
+                </li>
           {% endif %}
         {% endfor %}
       </ul>

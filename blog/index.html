@@ -7,16 +7,16 @@ section_id: blog
   <div class='big mod modBlogPost no_bg'>
     <div class='images'>
       {% for image in post.images %}
-        <div class='image'><img alt="" src="{{site.url}}/{{image}}" /></div>
+        <div class='image'><img alt="" src="{{ site.url }}{{image}}" /></div>
       {% endfor %}
     </div>
     <div class='content'>
       <p class='info'>
-        <span>{{post.date | date: "%B %d, %Y" }}</span>
+        <span>{{ post.date | date: "%B %d, %Y" }}</span>
         /
         <span>
           by
-          <a href="">{{post.author}}</a>
+          <a href="">{{ post.author }}</a>
         </span>
         /
         <span>
@@ -28,15 +28,11 @@ section_id: blog
             {% endunless %}
           {% endfor %}
         </span>
-        /
-        <span>
-          <a href="#">4 commetns</a>
-        </span>
       </p>
-      <h3><a href="{{post.url}}">{{post.title}}</a></h3>
-      <p>{{post.excerpt}}</p>
+      <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
       <div class='spacing'></div>
-      <a class="button small" href="{{post.url}}">Read more</a>
+      <a class="button small" href="{{ site.url }}{{ post.url }}">Read more</a>
     </div>
   </div>
   <hr>
