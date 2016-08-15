@@ -3,7 +3,7 @@ sudo: required
 warnings_are_errors: true
 
 rvm:
-  - 2.1
+  - 2.3
 script:
   - bundle exec jekyll build
   - bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html
