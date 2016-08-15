@@ -156,6 +156,7 @@ DEPENDENCIES
   jekyll
   jekyll-paginate
   kramdown
+  nokogiri
 
 BUNDLED WITH
    1.12.5
