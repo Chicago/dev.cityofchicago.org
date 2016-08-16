@@ -10,4 +10,4 @@ Pushes to the `master` branch are built on [Travis CI](https://travis-ci.org/Chi
 
 Production versions of this repo should be sent to S3. The `config.yml` file should be configured so `url: "/"`.
 
-Use GitHub pages to publicly test new commits by pushing to the `gh-pages` branch. The `config.yml` file should be configured so `url: "dev.cityofchicago.org/"`.
+Use GitHub pages to publicly test new commits by pushing to the `gh-pages` branch. The `config.yml` file should be configured so `url: "/dev.cityofchicago.org/"`.
