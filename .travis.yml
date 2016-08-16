@@ -22,4 +22,4 @@ deploy:
   local-dir: _site/
   on:
     repo: Chicago/dev.cityofchicago.org
-    branch: issue5
+    branch: gh-pages
