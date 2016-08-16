@@ -2,9 +2,10 @@ language: ruby
 sudo: required
 warnings_are_errors: true
 rvm:
-- 2.1
+  - 2.1
 script:
-- bundle exec jekyll build
+  - bundle install
+  - bundle exec jekyll build
 env:
 - global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
