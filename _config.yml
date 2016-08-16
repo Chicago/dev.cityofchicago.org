@@ -5,7 +5,7 @@ email: developers@cityofchicago.org
 description: > # this means to ignore newlines until "baseurl:"
   Explore City of Chicago APIs and get updated news for developers. 
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "/dev.cityofchicago.org/" # the base hostname & protocol for your site
+url: "/" # the base hostname & protocol for your site
 twitter_username: ChicagoCDO
 github_username:  Chicago
 
