@@ -6,4 +6,8 @@ An ALPHA website to replace the current [dev.cityofchicago.org](http://dev.cityo
 
 # Build Process
 
-Pushes to the `gh-pages` branch are built on [Travis CI](https://travis-ci.org/Chicago/dev.cityofchicago.org) and then deployed to the `dev.cityofchicago.org` S3 bucket.
+Pushes to the `master` branch are built on [Travis CI](https://travis-ci.org/Chicago/dev.cityofchicago.org) and then deployed to the `dev.cityofchicago.org` S3 bucket and available at http://dev.cityofchicago.org.
+
+Production versions of this repo should be sent to S3. The `config.yml` file should be configured so `url: "/"`.
+
+Use GitHub pages to publicly test new commits by pushing to the `gh-pages` branch. The `config.yml` file should be configured so `url: "dev.cityofchicago.org/"`.
