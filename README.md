@@ -1,4 +1,4 @@
-[![Build status](https://img.shields.io/travis/Chicago/dev.cityofchicago.org/gh-pages.svg?style=flat-square)](https://github.com/Chicago/dev.cityofchicago.org)
+[![Master branch status](https://img.shields.io/travis/Chicago/dev.cityofchicago.org/master.svg?style=flat-square)](https://travis-ci.org/Chicago/dev.cityofchicago.org)
 
 # dev.cityofchicago.org
 
