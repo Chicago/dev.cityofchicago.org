@@ -1959,6 +1959,7 @@ body.screenshot {
   line-height: 5.14286rem;
   display: inline-block;
   color: #fff;
+  background-color: rgba(0,0,0,0.2);
   letter-spacing: 2px;
   font-weight: bold;
   margin-bottom: 40px;
