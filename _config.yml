@@ -4,7 +4,7 @@ owner: City of Chicago
 email: developers@cityofchicago.org
 description: > # this means to ignore newlines until "baseurl:"
   Explore City of Chicago APIs and get updated news for developers. 
-url: "/" # directory containing site. Also include trailing /
+url: "dev.cityofchicago.org/" # directory containing site. Also include trailing /
 twitter_username: ChicagoCDO
 github_username:  Chicago
 
