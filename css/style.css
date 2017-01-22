@@ -777,10 +777,10 @@ body.screenshot {
   right: -25px;
 }
 .slick-prev:before {
-  content: "←";
+  content: "◄";
 }
 [dir="rtl"] .slick-prev:before {
-  content: "→";
+  content: "►";
 }
 
 .slick-next {
@@ -791,10 +791,10 @@ body.screenshot {
   right: auto;
 }
 .slick-next:before {
-  content: "→";
+  content: "►";
 }
 [dir="rtl"] .slick-next:before {
-  content: "←";
+  content: "◄";
 }
 
 /* Dots */
@@ -1110,10 +1110,10 @@ body.screenshot {
   right: -25px;
 }
 .slick-prev:before {
-  content: "←";
+  content: "◄";
 }
 [dir="rtl"] .slick-prev:before {
-  content: "→";
+  content: "►";
 }
 
 .slick-next {
@@ -1124,10 +1124,10 @@ body.screenshot {
   right: auto;
 }
 .slick-next:before {
-  content: "→";
+  content: "►";
 }
 [dir="rtl"] .slick-next:before {
-  content: "←";
+  content: "◄";
 }
 
 /* Dots */
@@ -1390,10 +1390,10 @@ body.screenshot {
   right: -25px;
 }
 .slick-prev:before {
-  content: "←";
+  content: "◄";
 }
 [dir="rtl"] .slick-prev:before {
-  content: "→";
+  content: "►";
 }
 
 .slick-next {
@@ -1404,10 +1404,10 @@ body.screenshot {
   right: auto;
 }
 .slick-next:before {
-  content: "→";
+  content: "►";
 }
 [dir="rtl"] .slick-next:before {
-  content: "←";
+  content: "◄";
 }
 
 /* Dots */
@@ -3074,10 +3074,10 @@ body {
   right: -25px;
 }
 .slick-prev:before {
-  content: "←";
+  content: "◄";
 }
 [dir="rtl"] .slick-prev:before {
-  content: "→";
+  content: "►";
 }
 
 .slick-next {
@@ -3088,10 +3088,10 @@ body {
   right: auto;
 }
 .slick-next:before {
-  content: "→";
+  content: "►";
 }
 [dir="rtl"] .slick-next:before {
-  content: "←";
+  content: "◄";
 }
 
 /* Dots */
