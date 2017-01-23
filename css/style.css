@@ -204,7 +204,7 @@ ul.shortcode-list i {
 .button.boxed {
   color: #fff;
   border: 2px solid #fff;
-  background: none;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .button.boxed:hover {
@@ -777,10 +777,10 @@ body.screenshot {
   right: -25px;
 }
 .slick-prev:before {
-  content: "←";
+  content: "◄";
 }
 [dir="rtl"] .slick-prev:before {
-  content: "→";
+  content: "►";
 }
 
 .slick-next {
@@ -791,10 +791,10 @@ body.screenshot {
   right: auto;
 }
 .slick-next:before {
-  content: "→";
+  content: "►";
 }
 [dir="rtl"] .slick-next:before {
-  content: "←";
+  content: "◄";
 }
 
 /* Dots */
@@ -1110,10 +1110,10 @@ body.screenshot {
   right: -25px;
 }
 .slick-prev:before {
-  content: "←";
+  content: "◄";
 }
 [dir="rtl"] .slick-prev:before {
-  content: "→";
+  content: "►";
 }
 
 .slick-next {
@@ -1124,10 +1124,10 @@ body.screenshot {
   right: auto;
 }
 .slick-next:before {
-  content: "→";
+  content: "►";
 }
 [dir="rtl"] .slick-next:before {
-  content: "←";
+  content: "◄";
 }
 
 /* Dots */
@@ -1390,10 +1390,10 @@ body.screenshot {
   right: -25px;
 }
 .slick-prev:before {
-  content: "←";
+  content: "◄";
 }
 [dir="rtl"] .slick-prev:before {
-  content: "→";
+  content: "►";
 }
 
 .slick-next {
@@ -1404,10 +1404,10 @@ body.screenshot {
   right: auto;
 }
 .slick-next:before {
-  content: "→";
+  content: "►";
 }
 [dir="rtl"] .slick-next:before {
-  content: "←";
+  content: "◄";
 }
 
 /* Dots */
@@ -1980,7 +1980,7 @@ body.screenshot {
 }
 .modDefaultSlider .sequence .sequence-prev, .modDefaultSlider .sequence .sequence-next {
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 30px 18px;
   color: #fff;
   position: absolute;
@@ -3074,10 +3074,10 @@ body {
   right: -25px;
 }
 .slick-prev:before {
-  content: "←";
+  content: "◄";
 }
 [dir="rtl"] .slick-prev:before {
-  content: "→";
+  content: "►";
 }
 
 .slick-next {
@@ -3088,10 +3088,10 @@ body {
   right: auto;
 }
 .slick-next:before {
-  content: "→";
+  content: "►";
 }
 [dir="rtl"] .slick-next:before {
-  content: "←";
+  content: "◄";
 }
 
 /* Dots */
