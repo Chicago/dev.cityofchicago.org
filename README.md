@@ -64,4 +64,4 @@ Use GitHub pages to publicly test changes by pushing to the `gh-pages` branch. T
 
 Pushes to the `master` branch are built on [Travis CI](https://travis-ci.org/Chicago/dev.cityofchicago.org) and then deployed to the `dev.cityofchicago.org` S3 bucket and available at http://dev.cityofchicago.org.
 
-Production versions of this repo should be sent to S3. The `config.yml` file should be configured so `url: "http://dev.cityofchicago.org.s3-website-us-east-1.amazonaws.com"`.
+Production versions of this repo should be sent to S3. The `config.yml` file should be configured so `url: "http://dev.cityofchicago.org"`.
