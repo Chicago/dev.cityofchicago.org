@@ -2,17 +2,12 @@
 layout: post
 title: Beach Water Sensors dataset cleanup
 date: '2015-06-04T17:59:54-05:00'
-author: Open Data Team
-categories:
-  - data portal
-  - open data
 tags:
 - qmqz-2xku
 - revision
 - k7hf-8y75
 - g3ip-u8rb
 - data release
-images:
 tumblr_url: http://chicagoportalstatus.tumblr.com/post/120724934900/beach-water-sensors-dataset-cleanup
 ---
 <p>With the start of summer, we have performed some clean-up to the <a href="https://data.cityofchicago.org/d/qmqz-2xku">Beach Water Quality - Automated Sensors</a> dataset:<br/></p><ul><li>Removed records for “Weather Station” sites, which had no data and should not have been included in the first place.</li><li>That removal made the <a href="https://data.cityofchicago.org/d/tz6n-cnmj">Beach Water Quality - Automated Sensors - Records With Measurements</a> filtered view unnecessary.  We have hidden it and will delete it altogether in no less than 30 days.  In the meantime, the URL and any API calls to it will still work.</li><li>Broke each chart view under “More Views” into 2014 and 2015 versions, due to size and calculation/rendering time. In all cases, the 2014 version of the chart inherited the existing identifier (4x4) and URL.  (Example: <a href="https://data.cityofchicago.org/d/v7bk-5pm9">Water Temperature</a>).</li><li>Deleted two records from 2013 with clearly erroneous (impossible) or missing measurements in all fields.</li></ul><p>In addition, as described in a <a href="http://digital.cityofchicago.org/index.php/return-of-summer-beach-water-quality-and-new-beach-weather-stations/">post </a>on the Chicago Digital site, we have added two related datasets:</p><ul><li><a href="https://data.cityofchicago.org/d/k7hf-8y75">Beach Weather Stations - Automated Sensors</a> &ndash; the actual data from the blank sites removed above.</li><li>The <a href="https://data.cityofchicago.org/d/g3ip-u8rb">locations </a>of both types of sensor site, with a <a href="https://data.cityofchicago.org/d/77uw-5tut">mapped version</a>.</li></ul>
