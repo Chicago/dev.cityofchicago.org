@@ -1,23 +1,28 @@
 - name: Home
   path: index.html
   section_id: home
-- name: Docs
-  section_id: docs
+- name: Resources
+  section_id: resources
   children:
     - name: Bus, Trains &amp; Alerts
       path: http://www.transitchicago.com/developers/
     - name: ClearPath API
-      path: http://api1.chicagopolice.org/clearpath/documentation
+      path: http://api1.chicagopolice.org/clearpath/
     - name: DIVVY API
-      path: http://feeds.divvybikes.com/stations/stations.json
+      path: https://www.divvybikes.com/system-data
     - name: Open 311
       path: docs/open311
-    - name: Open Data Portal
-      path: https://dev.socrata.com
     - name: OpenGrid Dev Docs
       path: http://opengrid.readthedocs.io
     - name: Plenario
-      path: http://docs.plenar.io/
+      path: http://plenar.io/
+- name: Open Data Portal
+  section_id: open_data_portal
+  children:
+    - name: Visit Portal
+      path: https://data.cityofchicago.org
+    - name: API documentation
+      path: https://dev.socrata.com
 - name: Contact
   path: contact.html
   section_id: contact
