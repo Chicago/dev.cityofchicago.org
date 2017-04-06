@@ -54,14 +54,14 @@ Before making edits, begin the process to monitor changes to the file:
   * `jekyll serve` is always needed for testing
   * `compass watch` is needed when modifying any of the `.sass` files.
 
-Make changes as needed and check for changes by visiting 127.0.0.1:4000 in a web browser.
+The `config.yml` file should be configured so `url: "http://localhost:4000"`. Make changes and visit "localhost:4000" in a web browser to test the website.
 
 ## Public testing
 
-Use GitHub pages to publicly test changes by pushing to the `gh-pages` branch. The `config.yml` file should be configured so `url: "/dev.cityofchicago.org/"`.
+Use GitHub pages to publicly test changes by pushing to the `gh-pages` branch. The `config.yml` file should be configured so `url: "/dev.cityofchicago.org"`.
 
 ## Deployment
 
 Pushes to the `master` branch are built on [Travis CI](https://travis-ci.org/Chicago/dev.cityofchicago.org) and then deployed to the `dev.cityofchicago.org` S3 bucket and available at http://dev.cityofchicago.org.
 
-Production versions of this repo should be sent to S3. The `config.yml` file should be configured so `url: "/"`.
+Production versions of this repo should be sent to S3. The `config.yml` file should be configured so `url: ""`.
