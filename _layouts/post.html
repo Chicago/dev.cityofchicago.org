@@ -6,7 +6,7 @@ layout: blog
 <div class='mod modBlogPost big no_bg'>
   <div class='images'>
     {% for image in page.images %}
-      <div class='image'><img alt="" src="{{site.url}}{{image}}" /></div>
+      <div class='image'><img alt="" src="{{ site.url }}/{{image}}" /></div>
     {% endfor %}
   </div>
   <div class='content'>
@@ -27,34 +27,7 @@ layout: blog
           {% endunless %}
         {% endfor %}
     </p>
-    <h3><a href="{{ domain }}{{ page.url }}">{{page.title}}</a></h3>
+    <h3><a href="{{ site.url }}/{{ page.url }}">{{page.title}}</a></h3>
     {{content}}
   </div>
 </div>
-<div class='two spacing'></div>
-<!-- <a id='comments'></a>
-{% include comments.html %}
-<div class='four spacing'></div>
-<div id='comment-form'>
-  <h3>Your comment</h3>
-  <form accept-charset='UTF-8' action='#' method='post'>
-    <p class='name'>
-      <label for='name'>Your Name</label>
-      <input class='input-text required' id='name' name='name' type='text'>
-    </p>
-    <p class='email'>
-      <label for='email'>Your Email</label>
-      <input class='input-text required' id='email' name='email' type='text'>
-    </p>
-    <p class='message'>
-      <label for='message'>Your Message</label>
-      <textarea class='required' cols='80' id='message' name='message' rows='5'></textarea>
-    </p>
-    <div class='spacing'></div>
-    <p>
-      <input class='button' type='submit' value='Send Message'>
-    </p>
-  </form>
-</div> -->
-<div class='four spacing'></div>
-
