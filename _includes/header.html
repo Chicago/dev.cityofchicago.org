@@ -33,7 +33,7 @@
                     {% assign domain = site.url %}
                   {% endif %}
                   <li>
-                    <a href="{{ site.url }}/{{ child.path }}">{{ child.name }}</a>
+                    <a href="{{ site.url }}{{ child.path }}">{{ child.name }}</a>
                   </li>
                 {% endfor %}
               </ul>
@@ -45,7 +45,7 @@
               {% assign domain = site.url %}
             {% endif %}
                 <li class="{{active_class}}">
-                  <a href="{{ site.url }}/{{ item.path }}">{{ item.name }}</a>
+                  <a href="{{ site.url }}{{ item.path }}">{{ item.name }}</a>
                 </li>
           {% endif %}
         {% endfor %}
