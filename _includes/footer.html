@@ -8,7 +8,7 @@
         </a>
       </h1>
       <div class='links'>
-      <p>©2017 <a href="www.cityofchicago.org">City of Chicago</a>. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a>.<br />
+      <p>© 2017 <a href="www.cityofchicago.org">City of Chicago</a>. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a>.<br />
       <a href="http://www.cityofchicago.org/city/en/narr/foia/data_disclaimer.html">Disclaimer</a><br />
       <a href="https://github.com/Chicago/dev.cityofchicago.org/blob/master/NOTICE.md">Site credits</a><br />
       <a href="https://www.cityofchicago.org/city/en/general/privacy.html">Privacy policy</a>
@@ -31,7 +31,7 @@
                   {% assign domain = site.url %}
                 {% endif %}
                   <li>
-                    <a href="{{ site.url }}/{{ child.path }}">{{ child.name }}</a>
+                    <a href="{{ site.url }}{{ child.path }}">{{ child.name }}</a>
                   </li>
               {% endfor %}
             {% endif %}
@@ -46,7 +46,7 @@
         <h4>Developer Blog</h4>
         <ul>
           {% for post in site.posts limit: 5 %}
-            <li><a href="{{ site.url }}/{{ post.url }}">{{ post.title }}</a></li>
+            <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
