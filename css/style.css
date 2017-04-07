@@ -543,10 +543,10 @@ form input.error, form textarea.error {
   list-style: none;
   line-height: 1.875rem;
 }
-#footer ul a {
+#footer a {
   color: #999;
 }
-#footer ul a:hover {
+#footer a:hover {
   color: #eee;
 }
 #footer ul.socials li {
