@@ -6,19 +6,6 @@
   src: url('../fonts/steelfish/steelfish_eb-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/steelfish/steelfish_eb-webfont.woff') format('woff'), url('../fonts/steelfish/steelfish eb.otf') format('opentype');
   font-weight: 800;
 }
-@font-face {
-  font-family: "Steelfish";
-  src: url('../fonts/steelfish/steelfish_bd-webfont.eot');
-  src: url('../fonts/steelfish/steelfish_bd-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/steelfish/steelfish_bd-webfont.woff') format('woff'), 
-       url('../fonts/steelfish/steelfish bd.otf') format('opentype');
-  font-weight: bold;
-}
-
-@include font-face('futura_md_btbold',
-  font-files("fonts/futurabc-webfont.woff", "fonts/futurabc-webfont.ttf"),
-  $eot: "fonts/futurabc-webfont.eot");
-
 
 /*some basic settings */
 a {
