@@ -1,4 +1,8 @@
-This file contains copyright notices for open source work that was used in this project.
+# Copyright Notices
+
+This project uses many wonderful open source images, libraries, fonts, and code. Below lists those programs and the applicable licenses for each.
+
+# Images
 
 ## images/loop.jpg
 
@@ -11,3 +15,77 @@ This file contains copyright notices for open source work that was used in this 
 ## images/wicker-park-train.jpg
 
 "Wicker Park" &copy; 2012 by Nitram242 and licensed under [Creative Commons Attribution 2.0 Generic (CC BY 2.0)](https://creativecommons.org/licenses/by/2.0/)
+
+# Fonts
+
+## Poppins
+
+Poppins font &copy; 2014 by Indian Type Foundry is licensed under the [SIL Open Font License version 1.1]()
+
+## Font Awesome
+
+[Font Awesome](http://fontawesome.io) by Dave Gandy is licensed under the [SIL Open Font License version 1.1](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
+
+The code for Font Awesome found in `./css/font-awesome.css` is licensed under the [MIT License](https://opensource.org/licenses/mit-license.html).
+
+## Fontello
+
+[Fontello](http://fontello.com/) fonts &copy; 2011 by Vitaly Puzrin is licensed under the [MIT License](https://opensource.org/licenses/mit-license.html).
+
+# Libraries
+
+## Foundation
+
+[Foundation](http://foundation.zurb.com/) by ZURB is licensed under the [MIT License](https://opensource.org/licenses/mit-license.html).
+
+## imagesLoaded
+
+The [imagesLoaded library](http://github.com/desandro/imagesloaded) &copy; Paul Irish et al. is available under the [MIT License](https://opensource.org/licenses/mit-license.html).
+
+## jQuery
+
+[jQuery JavaScript Library](http://jquery.com/), including sizzleJS &copy; 2005, 2014 by jQuery Foundation, Inc. and other contributors is available under the [MIT License](https://opensource.org/licenses/mit-license.html).
+
+## jQuery.appear
+
+[jQuery.appear](https://github.com/bas2k/jquery.appear/) &copy; 2009 by Michael Hixson and &copy; 2012 by Alexander Brovikov is licensed under the [MIT License](https://opensource.org/licenses/mit-license.html).
+
+## jQuery Cookie Plugin
+
+[jQuery Cookie Plugin](https://github.com/carhartl/jquery-cookie) &copy; 2011 by Klaus Hartl is licensed under the [MIT License](https://opensource.org/licenses/mit-license.html).
+
+## jQuery Easing
+
+[jQuery Easing](http://gsgd.co.uk/sandbox/jquery/easing/) &copy; 2008 by George McGinley Smith is available under the [BSD License](https://opensource.org/licenses/BSD-3-Clause) ("3 clause" BSD license).
+
+## jQuery URL Parser plugin
+
+The jQuery URL Parser plugin &copy; Mark Perkins is available under the [MIT License](https://opensource.org/licenses/mit-license.html).
+
+## jQuery Validation Plugin
+
+The jQuery Validation plugin &copy; 2006 - 2011 by Jörn Zaefferer is licensed under the [MIT License](https://opensource.org/licenses/mit-license.html).
+
+## Modernizr Custom Build 
+
+&copy; Faruk Ates, Paul Irish, Alex Sexton is available under the [MIT License](https://opensource.org/licenses/mit-license.html).
+
+## Sequence.js
+
+[Sequence.js](http://www.sequencejs.com) &copy; 2012 Ian Lunn Design is available under the [MIT License](https://opensource.org/licenses/mit-license.html).
+
+## Simple JavaScript Inheritance
+
+The Simply JavaScript Inheritance &copy; John Resig is available under the [MIT License](https://opensource.org/licenses/mit-license.html).
+
+## slick.js
+
+The [slick.js](https://github.com/kenwheeler/slick) library &copy; Ken Wheeler is available under the [MIT License](https://opensource.org/licenses/mit-license.html).
+
+## Terrific JavaScript Framework
+
+The [Terrific JavaScript Framework](http://terrifically.org) &copy; 2012 by Remo Brunschwiler is available under the [MIT License](https://opensource.org/licenses/mit-license.html).
+
+## TouchWipe 
+
+[TouchWipe](http://www.netcu.de/jquery-touchwipe-iphone-ipad-library) is available under the [MIT License](https://opensource.org/licenses/mit-license.html).
