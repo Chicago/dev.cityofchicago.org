@@ -4,9 +4,9 @@ This project uses many wonderful open source images, libraries, fonts, and code.
 
 # Images
 
-## images/loop.jpg
+## images/natasha-taylor-179004.jpg
 
-"Chicago! Happy 4th!" &copy; 2014 by [Christopher](https://www.flickr.com/photos/christopherf/14564849105/in/photolist-oc3Ed2-7uQnvQ-Hb1xYH-a6K7yf-8kzS9X-4GgRD6-6KUXFK-7tH69w-7RpFNq-qiRYQF-adtiTW-8TY1HC-bb3JRT-qGqe3r-bSmm8Z-o6dJqx-9rVjhz-8q46hV-qYpEHX-qA8V7H-e2uptp-57xwtj-opynGf-9o2e7q-qfyJj1-fLp2or-7pj4SX-He7z43-fkN7TP-8vL7Kt-adNe2o-HeYvSi-bLmoha-6XzcFt-eo9GNZ-6YCHKx-dmYrNT-79NxEf-9ZDqWR-k4ibCc-61Z9xN-9cqyf7-8bXMUB-b3YCXg-4zqYrf-bvcXRH-8kY4EH-dxDkR4-8vP6ij-fBqfqv) and licensed under [Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic (CC BY-NC-ND 2.0)](https://creativecommons.org/licenses/by-nc-nd/2.0/)
+&copy; 2014 by [natasha taylor](https://unsplash.com/collections/495468/chicago?photo=eKQHiJ22J_E) and licensed under the [public domain (CC0)](https://creativecommons.org/share-your-work/public-domain/cc0/)
 
 ## images/construction.jpg
 
