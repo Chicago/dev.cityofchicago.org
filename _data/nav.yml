@@ -10,6 +10,8 @@
       path: http://api1.chicagopolice.org/clearpath/
     - name: DIVVY API
       path: https://www.divvybikes.com/system-data
+    - name: GTFS
+      path: http://www.transitchicago.com/developers/gtfs.aspx
     - name: Open 311
       path: docs/open311
     - name: OpenGrid Dev Docs
@@ -23,9 +25,6 @@
       path: https://data.cityofchicago.org
     - name: API documentation
       path: https://dev.socrata.com
-- name: Contact
-  path: contact.html
-  section_id: contact
 - name: GitHub
   path: https://www.github.com/Chicago
   section_id: github
