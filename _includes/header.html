@@ -27,11 +27,6 @@
               <a href="{{ site.url }}{{ item.path }}">{{ item.name }}</a>
               <ul class='dropdown'>
                 {% for child in item.children %}
-                  {% if child.path contains 'http' %}
-                    {% assign domain = '' %}
-                  {% else %}
-                    {% assign domain = site.url %}
-                  {% endif %}
                   <li>
                     <a href="{{ child.path }}">{{ child.name }}</a>
                   </li>
@@ -39,14 +34,9 @@
               </ul>
             </li>
           {% else %}
-            {% if item.path contains 'http' %}
-              {% assign domain = '' %}
-              {% else %}
-              {% assign domain = site.url %}
-            {% endif %}
-                <li class="{{active_class}}">
-                  <a href="{{ site.url }}/{{ item.path }}">{{ item.name }}</a>
-                </li>
+            <li class="{{active_class}}">
+              <a href="{{ item.path }}">{{ item.name }}</a>
+            </li>
           {% endif %}
         {% endfor %}
       </ul>
