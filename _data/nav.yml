@@ -1,5 +1,5 @@
 - name: Home
-  path: index.html
+  path: /
   section_id: home
 - name: Resources
   section_id: resources
@@ -29,5 +29,5 @@
   path: https://www.github.com/Chicago
   section_id: github
 - name: Blog
-  path: blog/
+  path: /blog/
   section_id: blog
