@@ -2,7 +2,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta property="og:title" content="City of Chicago | Developers" />
+  <meta property="og:site_name" content="Chicago" />
+  <meta property="og:type" content="portal" />
+  <meta property="og:url" content="https://dev.cityofchicago.org/" />
+  <meta property="og:image" content="//dev.cityofchicago.org/images/chicago-seal-75-200.png" />
+  
+  
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
