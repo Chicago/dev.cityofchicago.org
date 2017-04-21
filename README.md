@@ -6,7 +6,7 @@ Developer resources provided by the City of Chicago and sister agencies and get 
 
 # Adding New Blog Post
 
-Create a new Markdown or HTML file in the `_posts/` directory with the following naming convention: `YYYY-MM-DD-title-of-blog-post.md`. Make sure the 
+Create a new Markdown or HTML file in the `_posts/` directory with the following naming convention: `YYYY-MM-DD-title-of-blog-post.md`. The content of a blog post is outlined below. There is support for categories, tags, and the author name:
 
 ```
 layouts: posts
@@ -19,11 +19,16 @@ author: Team or Group Name
 tages:
  - tag 1
  - tag 2
+---
+
+<Type content in Markdown or HTML here>
 ```
 
 The `date` should be in [ISO format](https://www.w3.org/TR/NOTE-datetime) with the hours, minutes, and seconds. The timezone should be `-05:00` or `-06:00` depending on daylight savings time.
 
 Categories and tags should be chosen to help users understand the contexts of posts and discover relevant information. Categories typically refer to the application, API, or web service while tags refer to specific items in those services.
+
+Individual names should be avoided for blog posts, instead referring to the team, group, or department.
 
 Blog posts can be added directly to the repo. If you do not have direct rights, open a [pull request](https://help.github.com/articles/about-pull-requests/). against the `master branch`.
 
