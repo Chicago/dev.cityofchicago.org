@@ -138,6 +138,10 @@ div.header h1 {
   color: #999;
 }
 
+ol {
+  list-style-type: none;
+}
+
 li.repo {
   height: 200px;
   text-align: center;
