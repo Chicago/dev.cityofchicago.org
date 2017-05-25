@@ -43,8 +43,7 @@ a:hover {
 }
 
 #shadow, div.header, li.repo {
-  background: white;
-  background: rgb(255, 255, 255);
+  background: #C0E6F5;
   -moz-box-shadow:    0px 0px 5px 1px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
   box-shadow:         0px 0px 5px 1px rgba(0, 0, 0, 0.1);
@@ -157,7 +156,8 @@ li.repo > a {
 }
 
 li.repo a:hover {
-  background: rgba(192, 230, 245, 0.7);
+  /*background: rgba(192, 230, 245, 0.7);*/
+  background: rgba(255, 255, 255, 0.5);
 
 }
 
@@ -172,14 +172,15 @@ li.repo h2 {
 }
 
 li.repo h3 {
-  font-size: 11px;
+  font-size: 13px;
   margin-top: 35%;
+  color: black;
 }
 
 li.repo h4 {
-  font-size: 11px;
+  font-size: 10px;
   margin-top: 5px;
-  color: #999;
+  color: black;
 }
 
 /*.repo:after {
@@ -191,28 +192,44 @@ li.repo h4 {
   height: 0;
   border-bottom: 50px solid transparent;
   border-left: 50px solid transparent;
-  border-right: 50px solid #0080b0;
+  border-right: 50px solid #C0E6F5;
   pointer-events: none;
 }*/
 
-.repo.javascript:after {
-  border-right-color: #333;
+.repo {
+  background-color: #C0E6F5;
 }
 
-.repo.scala:after {
-  border-right-color: #7ac9de;
+.repo.javascript {
+  background-color: #62C3A5;
 }
 
-.repo.ruby:after {
-  border-right-color: #cc1100;
+.repo.css {
+  background-color: #62C3A5; 
 }
 
-.repo.java:after {
-  border-right-color: #cc8300;
+.repo.html {
+  background-color: #62C3A5; 
 }
 
-.repo.python:after {
-  border-right-color: #6aad2d;
+.repo.r {
+  background-color: #91CFEB;
+}
+
+.repo.ruby {
+  background-color: #F3815D;
+}
+
+.repo.java {
+  background-color: #5495A1;
+}
+
+.repo.python {
+  background-color: ##5495A1;
+}
+
+.repo.shell {
+  background-color: #B15A9E;
 }
 
 @keyframes small-swing { 0% { margin-top: 0px } 50% { margin-top: -10px } 100% { margin-top: 0px } }
