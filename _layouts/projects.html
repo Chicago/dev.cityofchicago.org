@@ -7,6 +7,12 @@
 
     {% include header.html %}
 
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/style-projects.css">
+
+	<script src="{{ "/javascripts/projects.js" | prepend: site.url }}" type="text/javascript"></script>
+
     <div id='main' role='main'>
       {{ content }}
     </div>
