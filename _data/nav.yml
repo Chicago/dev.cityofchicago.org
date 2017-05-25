@@ -25,6 +25,9 @@
       path: https://data.cityofchicago.org
     - name: API documentation
       path: https://dev.socrata.com
+- name: Projects
+  path: /projects.html
+  section_id: projects
 - name: GitHub
   path: https://www.github.com/Chicago
   section_id: github
