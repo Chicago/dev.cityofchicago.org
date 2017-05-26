@@ -26,7 +26,7 @@
     - name: API documentation
       path: https://dev.socrata.com
 - name: Projects
-  path: /projects.html
+  path: /projects/
   section_id: projects
 - name: GitHub
   path: https://www.github.com/Chicago
