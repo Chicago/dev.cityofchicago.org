@@ -1,3 +1,7 @@
+/* Modified from https://github.com/twitter/twitter.github.com
+(c) 2012 Twitter, Inc. and licensed under Apache License 2.0
+See NOTICE file for more information */
+
 #wrapper {
   position: relative;
   width: 110%;
@@ -161,12 +165,3 @@ li.repo h4 {
   -webkit-animation: large-swing 1.5s infinite ease-in-out;
   -ms-animation: large-swing 1.5s infinite ease-in-out;
 }
-
-/*#flyzone {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}*/

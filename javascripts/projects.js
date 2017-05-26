@@ -1,3 +1,6 @@
+/* Modified from https://github.com/twitter/twitter.github.com
+(c) 2012 Twitter, Inc. and licensed under Apache License 2.0
+See NOTICE file for more information */
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-39101739-1']);

@@ -34,6 +34,14 @@ The code for Font Awesome found in `./css/font-awesome.css` is licensed under th
 
 # Libraries
 
+## twitter.github.com
+
+Several components used to create `projects.html` are forked and adapted from [Twitter, Inc.](https://github.com/twitter/twitter.github.com/tree/77311303949e696e5a40c545b258d2d16088ecf4) &copy; 2012 and licensed under [Apache License 2.0](https://github.com/twitter/twitter.github.com/blob/77311303949e696e5a40c545b258d2d16088ecf4/LICENSE).
+
+  * `javascript/projects.js` was adapted from the Javascript code in Twitter's `[index.html](https://github.com/twitter/twitter.github.com/blob/77311303949e696e5a40c545b258d2d16088ecf4/index.html)`. Several elements were removed.
+  * `css/projects.css` was adapted from `[assets/style.css](https://github.com/twitter/twitter.github.com/blob/77311303949e696e5a40c545b258d2d16088ecf4/assets/style.css) and removed and renamed several elements.
+  * [The files](https://github.com/twitter/twitter.github.com/tree/77311303949e696e5a40c545b258d2d16088ecf4/assets) `assets/reset.css`, `assets/bg.png`, `assets/spinner.gif`, and `assets/larry.png` were removed in this project.
+
 ## Foundation
 
 [Foundation](http://foundation.zurb.com/) by ZURB is licensed under the [MIT License](https://opensource.org/licenses/mit-license.html).
