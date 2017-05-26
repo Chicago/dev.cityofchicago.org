@@ -72,10 +72,6 @@ See NOTICE file for more information */
         page = page || 1;
 
         var uri = "https://api.github.com/orgs/Chicago/repos?callback=?"
-          + "&client_id="
-          + "e5b97316720a38c8dbd1"
-          + "&client_secret="
-          + "7a51be56b51c1e7b2bfea5c8bffe4477554ed57d"
           + "&per_page=100"
           + "&page="+page;
 
