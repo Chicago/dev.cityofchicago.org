@@ -1,4 +1,3 @@
-<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-39101739-1']);
@@ -10,10 +9,6 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-    </script>
-    <script type="text/javascript" src="javascripts/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="javascripts/strftime.js"></script>
-    <script type="text/javascript">
     (function ($, undefined) {
 
       // Put custom repo URL's in this object, keyed by repo name.
@@ -64,6 +59,7 @@
         var $link = $("<a>").attr("href", repoUrl(repo)).appendTo($item);
         $link.append($("<h3>").text(repo.name));
         $link.append($("<h4>").text(repo.language));
+        // Currently not including repo description. May add later.
         // $link.append($("<p>").text(repoDescription(repo)));
         $item.appendTo("#repos");
       }
@@ -131,64 +127,4 @@
         });
       }
       addRepos();
-
-      //get total number of Twitter members
-      function getNumMembers(page, numMembers) {
-        var page = page || 1;
-        var numMembers = numMembers || 0;
-        var membersUri = "https://api.github.com/orgs/Chicago/members?callback=?"
-          + "&client_id="
-          + "e5b97316720a38c8dbd1"
-          + "&client_secret="
-          + "7a51be56b51c1e7b2bfea5c8bffe4477554ed57d"
-          + "&per_page=100"
-          + "&page="+page;
-
-        $.getJSON(membersUri, function (result) {
-          if (result.data && result.data.length > 0) {
-            numMembers += result.data.length;
-            getNumMembers(page+1, numMembers);
-          } else {
-            $(function () {
-              $("#num-members").text(numMembers);
-            });
-          }
-        });
-      }
-      getNumMembers();
-
-      function randomItem(array) {
-        return array[Math.floor(Math.random() * array.length)];
-      }
-
-      var $flyzone;
-
-      function flyzone() {
-        if (!$flyzone) {
-          $flyzone = $("<div>").attr("id", "flyzone").prependTo(document.body);
-        }
-
-        return $flyzone;
-      }
-
-      var sizes = ["smaller", "small", "medium", "large", "fat"];
-
-      var sizeDimensions = {
-        "smaller": 50,
-        "small": 80,
-        "medium": 130,
-        "large": 200,
-        "fat": 300
-      };
-
-      function randomOpacity(threshold) {
-        var opacity = Math.random();
-
-        while (opacity < threshold) {
-          opacity = Math.random();
-        }
-
-        return opacity;
-      }
     })(jQuery);
-</script>
