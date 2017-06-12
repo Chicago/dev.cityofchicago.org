@@ -11,3 +11,5 @@ tags:
 - tech headache
 ---
 The [Red Light Camera Violations](https://data.cityofchicago.org/d/spqx-js37) dataset is not updating due to a technical issue. We are investigating and attempting to fix the problem.
+
+**Update 6/12/2017, 3 pm -** We have solved the problem. The dataset is current and we expect future update jobs to run correctly.
