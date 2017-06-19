@@ -12,10 +12,8 @@ tags:
 - improvement
 - data portal administration
 ---
-Knowing how easy it can be for data portal administrators to miss a very useful enhancement -- as we initially did in this case -- we wanted to highlight a change [Socrata](https://socrata.com/) recently made. It is now possible to update some dataset column properties without creating a [working copy](https://support.socrata.com/hc/en-us/articles/202949958-Editing-datasets-using-a-working-copy) and publishing again. 
+Knowing how easy it can be for data portal administrators to miss a very useful enhancement, as we initially did in this case, we wanted to highlight a change [Socrata](https://socrata.com/) recently made. It is now possible to update some dataset column properties without creating a [working copy](https://support.socrata.com/hc/en-us/articles/202949958-Editing-datasets-using-a-working-copy) and publishing again. 
 
+To do so, simply select `Edit Column Properties` from the menu of the column header. This action would previously have displayed the current properties but required you to create a working copy in order to change anything.
 
-
-The [Red Light Camera Violations](https://data.cityofchicago.org/d/spqx-js37) dataset is not updating due to a technical issue. We are investigating and attempting to fix the problem.
-
-**Update 6/12/2017, 3 pm -** We have solved the problem. The dataset is current and we expect future update jobs to run correctly.
+Note that this technique only allows an authorized user to change some properties, such as column name, description, or display style.  Changing an element that is more integral to the dataset structure, such as the data type or API field name, still requires a working copy.  However, having had the experience of needing to go through a full publishing cycle for a six-million-row [dataset](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2) in order to clarify a few column descriptions and having [even larger datasets](https://data.cityofchicago.org/Transportation/Divvy-Bicycle-Stations-Historical/eq45-8inv) where a publishing cycle between normally scheduled updates might not even be possible, we welcome this new feature and wanted to make sure our peers running other Socrata data portals knew about it.
