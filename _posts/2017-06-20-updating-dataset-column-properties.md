@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Updating Data Portal column properties more easily
+title: Updating dataset column properties more easily
 date: '2017-06-20T12:00:00-05:00'
 author: Open Data Portal Team
 categories:
