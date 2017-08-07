@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OpenGrid Patch Release: 1.4.1
+title: OpenGrid Patch Release 1.4.1
 date: '2017-08-07T14:50:00-05:00'
 author: OpenGrid Development Team
 categories:
