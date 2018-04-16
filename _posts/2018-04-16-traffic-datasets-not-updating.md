@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Traffic datasets are not updating - Update: Resolved
+title: Traffic datasets are not updating - Resolved
 date: '2018-04-16T12:10:00-05:00'
 author: Open Data Portal Team
 categories:
