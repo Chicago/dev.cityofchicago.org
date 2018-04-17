@@ -26,6 +26,8 @@ tages:
 
 The `date` should be in [ISO format](https://www.w3.org/TR/NOTE-datetime) with the hours, minutes, and seconds. The timezone should be `-05:00` or `-06:00` depending on daylight savings time.
 
+Avoid using colon in the blog post `title` field since it's a reserved character and breaks formatting during the Travis CI build. Instead, use dashes to denote specific topics.
+
 Categories and tags should be chosen to help users understand the contexts of posts and discover relevant information. Categories typically refer to the application, API, or web service while tags refer to specific items in those services.
 
 Individual names should be avoided for blog posts, instead referring to the team, group, or department.
