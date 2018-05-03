@@ -21,7 +21,7 @@ We are making some changes to the datasets that contain historical traffic conge
 * [Chicago Traffic Tracker - Historical Congestion Estimates by Segment](https://data.cityofchicago.org/d/77hq-huss)
 * [Chicago Traffic Tracker - Historical Congestion Estimates by Region](https://data.cityofchicago.org/d/emtn-qqdi)
 
-Both datasets have been only sporadically updated, due to the internal processes required. In the case of the segments dataset, this has resulted in some time periods not making it into the dataset at all.  Therefore, we are going to do a final update of each dataset and have launched new historical datasets:
+Both datasets have been only sporadically updated, due to the internal processes required. This has resulted in some time periods not making it into the datasets at all.  Therefore, we are going to do a final update of each dataset and have launched new historical datasets:
 
 * [Chicago Traffic Tracker - Historical Congestion Estimates by Segment - 2018-Current](https://data.cityofchicago.org/d/sxs8-h27x)
 * [Chicago Traffic Tracker - Historical Congestion Estimates by Region - 2018-Current](https://data.cityofchicago.org/d/kf7e-cur8)
