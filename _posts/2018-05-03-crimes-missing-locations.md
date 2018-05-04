@@ -11,7 +11,7 @@ tags:
 - x2n5-8w5q
 - tech headache
 ---
-We have discovered the most records in the [Crimes - 2001 to present](https://data.cityofchicago.org/d/ijzp-q8t2) and [Crimes - One year prior to present](https://data.cityofchicago.org/d/x2n5-8w5q) datasets on or after 12/24/2017 have blank values for:
+We have discovered that most records in the [Crimes - 2001 to present](https://data.cityofchicago.org/d/ijzp-q8t2) and [Crimes - One year prior to present](https://data.cityofchicago.org/d/x2n5-8w5q) datasets on or after 12/24/2017 have blank values for:
 
 * X Coordinate
 * Y Coordinate
