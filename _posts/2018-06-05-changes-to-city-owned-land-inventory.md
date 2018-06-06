@@ -8,8 +8,8 @@ categories:
 - Data Portal
 tags:
 - aksk-kvfp
-- city-owned land
 - open data
+- data portal
 ---
 
 On Monday, June 11th we will be making significant changes to the [City-Owned Land Inventory data](https://data.cityofchicago.org/Community-Economic-Development/City-Owned-Land-Inventory/aksk-kvfp) on the data portal. The changes will bring significant improvements to that data set based on a change in the underlying system that tracks and maintains city-owned properties.
