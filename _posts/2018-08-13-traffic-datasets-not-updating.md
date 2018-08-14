@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Traffic Tracker Datasets Are Not Updating
+title: Traffic Tracker Datasets Are Not Updating - Resolved
 date: '2018-08-13T11:00-05:00'
 author: Open Data Portal Team
 categories:
@@ -22,3 +22,5 @@ The corresponding historical datasets also are not updating. While we are not ce
 * [Chicago Traffic Tracker - Historical Congestion Estimates by Region - 2018-Current](https://data.cityofchicago.org/d/kf7e-cur8)
 
 We are looking into the problem and will update this post with any significant developments.
+
+**Update 8/14/2018, 10:25 am:** All of these datasets are updating again, although, as expected, there are gaps in the historical datasets that will be permanent. Please note that there is a set of readings at approximately 11:30 pm last night (8/31/2018) but that there is otherwise a gap from approximately 8/11/2018 9:30 am to 8/14/2018 9:20 am.
