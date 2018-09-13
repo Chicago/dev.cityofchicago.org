@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Choropleth Maps of Datasets with Multiple Location Columns
-date: '2018-09-07T15:00-05:00'
+date: '2018-09-13T10:00-05:00'
 author: Open Data Portal Team
 categories:
 - Open Data
@@ -27,4 +27,6 @@ There is no known fix at this time. Therefore, we are removing all such cards fr
 
 Should there be significant updates to the situation, we will update this post and will re-add these cards someday if we are able to do so in a way that we consider reliable.
 
-Note that some other types of [map visualizations](https://support.socrata.com/hc/en-us/articles/360000626547-Publishing-and-Visualizing-Geospatial-Data) that end users can create are also subject to this quirk. If you have any questions about this issue, we recommend opening a [support ticket](https://support.socrata.com/hc/en-us/requests/new) directly with Socrata, in order to get the most current and accurate information.
+Note that some other types of [map visualizations](https://support.socrata.com/hc/en-us/articles/360000626547-Publishing-and-Visualizing-Geospatial-Data) that end users can create are also subject to this quirk.
+
+Socrata is tracking this problem as a [known issue](https://support.socrata.com/hc/en-us/articles/360008376273). If you have any questions about it, we recommend referring to that article or opening a [support ticket](https://support.socrata.com/hc/en-us/requests/new) directly with Socrata.
