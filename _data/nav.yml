@@ -14,6 +14,8 @@
       path: http://www.transitchicago.com/developers/gtfs.aspx
     - name: Health Atlas API
       path: https://chicagohealth.herokuapp.com/apidoc
+    - name: Lead Safe
+      path: docs/lead-safe
     - name: Open 311
       path: docs/open311
     - name: OpenGrid Dev Docs
