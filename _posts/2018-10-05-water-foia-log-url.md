@@ -14,4 +14,4 @@ tags:
 - revision
 - tech-headache
 ---
-We recently had a problem with the Department of Water FOIA Request Log dataset. We have restored the data but were not able to keep the previous URL or dataset ID ("4x4" at the end). The dataset is now at https://data.cityofchicago.org/FOIA/FOIA-Request-Log-Water/p4j4-pzyn.
+We recently had a problem with the Department of Water FOIA Request Log dataset. We have restored the data but were not able to keep the previous URL or dataset ID ("4x4" at the end). The dataset is now at [https://data.cityofchicago.org/FOIA/FOIA-Request-Log-Water/p4j4-pzyn](https://data.cityofchicago.org/FOIA/FOIA-Request-Log-Water/p4j4-pzyn).
