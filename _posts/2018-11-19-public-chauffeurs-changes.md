@@ -16,8 +16,9 @@ Due to a change in the source system, there will be some minor effects to the [P
 * The `Record Number` column will be removed. It exists only in the old source system, not the new one. Note that the `License Number` column will still exist and chauffeurs will retain their existing license numbers.
 * There will be a new `Expires` column showing the month and year in which the license expired or will expire if not renewed.
 * The `Driver Type` column will change to all capital letters for consistency with other text columns in the dataset.
+* **11/20/2018 Edit:** At least initially, licenses that were invalid as of 11/19/2018 will no longer be shown in the dataset.
 
-We are not expecting the dataset to become unavailable at any point but it may not reflect current data between 11/19/2018 4:30 pm and 11/20/2018 12:00 pm. Any change to that schedule, in either direction, will be posted as an update to this post.
+We are not expecting the dataset to become unavailable at any point but it may not reflect current data between 11/19/2018 4:30 pm and 11/20/2018 1:00 pm. Any change to that schedule, in either direction, will be posted as an update to this post. (**11/20/2018 Edit:** The target time for new data appearing was changed from 12:00 pm to 1:00 pm.)
 
 See the [Industry Notice](http://files.constantcontact.com/fabc28cb001/66161551-9dae-4910-804d-b29be4ed9273.pdf) posted by the [Chicago Department of Business Affairs and Consumer Protection](https://www.cityofchicago.org/city/en/depts/bacp/supp_info/bacppublicvehicles.html) for more information.
 
