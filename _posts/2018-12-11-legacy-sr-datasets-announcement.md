@@ -44,4 +44,4 @@ For reference, the existing datasets, which will become historical only, are:
 * [311 Service Requests - Tree Trims](https://data.cityofchicago.org/d/uxic-zsuj)
 * [311 Service Requests - Vacant and Abandoned Buildings Reported](https://data.cityofchicago.org/d/7nii-7srd)
 
-Pplease contact the City of Chicago Open Data Team at [dataportal@cityofchicago.org](mailto:dataportal@cityofchicago.org) or [@ChicagoCDO](https://twitter.com/ChicagoCDO) with any questions related to the 311 datasets. However, please direct any questions or comments about the 311 system, itself, to [CHIdeas](https://www.chideas.org).
+Please contact the City of Chicago Open Data Team at [dataportal@cityofchicago.org](mailto:dataportal@cityofchicago.org) or [@ChicagoCDO](https://twitter.com/ChicagoCDO) with any questions related to the 311 datasets. However, please direct any questions or comments about the 311 system, itself, to [CHIdeas](https://www.chideas.org).
