@@ -23,11 +23,11 @@ tags:
 - uxic-zsuj
 - 7nii-7srd
 ---
-The City of Chicago will launch its new [311](https://www.cityofchicago.org/city/en/sites/311ProjectInformation/home.html) system on 12/18/2018. This will also change the 311 data on the Data Portal in important ways.
+The City of Chicago is getting ready launch its new [311](https://www.cityofchicago.org/city/en/sites/311ProjectInformation/home.html) system this month.
 
 The 12 long-existing 311 Service Requests [datasets](https://data.cityofchicago.org/browse?category=Service+Requests&limitTo=datasets&q=&sortBy=alpha) will no longer be updated after that date, although will remain for historical use.
 
-There will be a new open data presentation of Chicago 311 data. We are still working on the specifics and will publish the details when they are available but wanted to give advance notice about the status of the existing datasets.
+We will be changing the way we present 311 data on the data portal, and will publish more details soon. However, we wanted to give advance notice about the status of the existing datasets.
 
 For reference, the existing datasets, which will become historical only, are:
 
