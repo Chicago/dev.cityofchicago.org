@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Payments Dataset Additional Columns
-date: '2018-12-19T17:00-06:00'
+date: '2018-12-20T12:00-06:00'
 author: Open Data Portal Team
 categories:
 - Open Data
