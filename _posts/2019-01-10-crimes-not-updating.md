@@ -17,3 +17,5 @@ Our [crimes](https://data.cityofchicago.org/d/ijzp-q8t2) [datasets](https://data
 **Update 1/11/2019, 10:30 am:** The datasets are now up-to-date -- currently through 1/3/2019 because there is a seven-day wait before records are posted to these datasets.
 
 **Update 1/14/2019, 3:15 pm:** The problem appears to have returned. We are looking into it.
+
+**Update 1/30/2019, 5:00 pm:** After several days of successful updates, we believe the problem is fixed.
