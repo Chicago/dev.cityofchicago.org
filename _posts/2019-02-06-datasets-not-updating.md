@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Datasets Are Not Updating
+title: Some Datasets Are Not Updating
 date: '2019-02-06T13:15-06:00'
 author: Open Data Portal Team
 categories:
