@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Some Datasets Are Not Updating
+title: Some Datasets Are Not Updating - Resolved
 date: '2019-02-06T13:15-06:00'
 author: Open Data Portal Team
 categories:
@@ -33,4 +33,6 @@ The following datasets were not updated yesterday (2/5/2019) or today. We have i
 * [Traffic Crashes - Crashes](https://data.cityofchicago.org/d/85ca-t3if) (The two related datasets are updating.)
 * [Transportation Department Permits](https://data.cityofchicago.org/d/pubx-yq2d)
 * [West Nile Virus (WNV) Mosquito Test Results](https://data.cityofchicago.org/d/jqe8-8r6s) (There is no testing done at this time of year so no updates would be expected, even without this issue.)
+
+**Update 2/7/2019, 12:00 pm:** We believe the problem is solved. Some datasets have already updated correctly. Others are currently processing and should appear on the Data Portal throughout the day today.
 
