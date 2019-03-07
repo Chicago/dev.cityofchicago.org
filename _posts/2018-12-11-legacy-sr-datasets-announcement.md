@@ -27,11 +27,11 @@ The City of Chicago is getting ready launch its new [311](https://www.cityofchic
 
 The 12 long-existing 311 Service Requests [datasets](https://data.cityofchicago.org/browse?category=Service+Requests&limitTo=datasets&q=&sortBy=alpha) will no longer be updated after that date, although will remain for historical use.
 
-We will be changing the way we present 311 data on the data portal, and will publish more details soon. However, we wanted to give advance notice about the status of the existing datasets.
+We will be changing the way we present 311 data on the data portal, and will publish [more details](http://dev.cityofchicago.org/open%20data/data%20portal/2019/03/06/new-311-datasets.html) soon. However, we wanted to give advance notice about the status of the existing datasets.
 
 For reference, the existing datasets, which will become historical only, are:
 
-* [311 Service Requests - Abandoned Vehicles](https://data.cityofchicago.org/d/3c9v-pnva)
+* [311 Service Requests - Abandoned Vehicles](https://data.cityofchicago.org/d/3c9v-pnva) (**3/7/2019 Edit**: This dataset will continue to update longer than the other 11.)
 * [311 Service Requests - Alley Lights Out](https://data.cityofchicago.org/d/t28b-ys7j)
 * [311 Service Requests - Garbage Carts](https://data.cityofchicago.org/d/9ksk-na4q)
 * [311 Service Requests - Graffiti Removal](https://data.cityofchicago.org/d/hec5-y4x5)
@@ -45,3 +45,5 @@ For reference, the existing datasets, which will become historical only, are:
 * [311 Service Requests - Vacant and Abandoned Buildings Reported](https://data.cityofchicago.org/d/7nii-7srd)
 
 Please contact the City of Chicago Open Data Team at [dataportal@cityofchicago.org](mailto:dataportal@cityofchicago.org) or [@ChicagoCDO](https://twitter.com/ChicagoCDO) with any questions related to the 311 datasets. However, please direct any questions or comments about the 311 system, itself, to [CHIdeas](https://www.chideas.org).
+
+**Update 3/7/2019, 12:45 pm**: Added a link to the post announcing the first new 311 dataset. Added a note about the Abandoned Vehicles dataset.
