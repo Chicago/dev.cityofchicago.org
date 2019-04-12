@@ -110,11 +110,11 @@ $white       : #FFFFFF;
 // $aluminum    : #999999;
 // $jumbo       : #888888;
 // $monsoon     : #777777;
-// $steel       : #666666;
+ $steel       : #666666;
 // $charcoal    : #555555;
 // $tuatara     : #444444;
 // $oil         : #333333;
-$jet         : #999;
+$jet            : #222222;
 // $black       : #000000;
 
 // We use these as default colors throughout
@@ -124,10 +124,11 @@ $alert-color: #F3815D;
 $success-color: #62C3A5;
 $warning-color: #62C3A5;
 $info-color: #5495A1;
+$link-color: #205493;
 
 // We use these to control various global styles
 // $body-bg: $white;
-$body-font-color: $jet;
+$body-font-color: $steel;
 $body-font-family: $font-family-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
