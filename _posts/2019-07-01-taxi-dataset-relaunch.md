@@ -24,7 +24,7 @@ We determined that one or more of the underlying problems affected the entire da
 
 The net changes per month and year are shown in Table 1.
 
-The previous version of the dataset is downloadable in Comma-Separated Value (CSV) format at https://data.cityofchicago.org/api/views/wrvz-psew/backups/2019-06-07T21:55:48.207Z (46 GB file). Please note that we cannot promise this file will be permanently available so recommended downloading it now if you will want it at some point.
+The previous version of the dataset is [downloadable](https://data.cityofchicago.org/api/views/wrvz-psew/backups/2019-06-07T21:55:48.207Z) in Comma-Separated Value (CSV) format (46 GB file). Please note that we cannot promise this file will be permanently available so recommended downloading it now if you will want it at some point.
 
 The overall effect is that while, as commonly believed, taxi trip volume in Chicago has fallen from about 2015 on, the rate of decrease has been smaller than previously thought. We use fundamentally the same data internally that we share on the Data Portal so this was a significant discovery for many reasons.
 
