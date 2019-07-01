@@ -44,7 +44,7 @@ Please direct any questions about the Taxi Trips dataset or the Data Portal in g
 
 Thank you.
 
-#### Table 1 – Net Changes per Month and Year
+##### Table 1 – Net Changes per Month and Year
 
 | Month | Previous Trip Count | Updated Trip Count | Trips Added | Trips Added % | Year or YTD Trips Added | Year or YTD Trips Added % |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -106,7 +106,7 @@ Thank you.
 
 
 
-#### Table 2 – Flash Trip Count by Month
+##### Table 2 – Flash Trip Count by Month
 
 | Month | Flash Trip Count | Trailing 13 Month Flash Trip Count |
 | --- | --- | --- |
