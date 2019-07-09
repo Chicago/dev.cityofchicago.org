@@ -28,4 +28,4 @@ The significant changes include:
 *  Adding COMMUNITY_AREA,  CENSUS_TRACT, WARD, XCOORDINATE, and YCOORDINATE columns.
 *  Reordering columns.
 
-As always, please contact the City of Chicago Open Data Team at [dataportal@cityofchicago.org](mailto:dataportal@cityofchicago.org) or [@ChicagoCDO](https://twitter.com/ChicagoCDO) with any questions related to using the Data Portal. However, please direct any subject matter questions about building permits to [DOB-info@cityofchicago.org ](mailto:DOB-info@cityofchicago.org).
+As always, please contact the City of Chicago Open Data Team at [dataportal@cityofchicago.org](mailto:dataportal@cityofchicago.org) or [@ChicagoCDO](https://twitter.com/ChicagoCDO) with any questions related to using the Data Portal. However, please direct any subject matter questions about building permits to [DOB-info@cityofchicago.org](mailto:DOB-info@cityofchicago.org).
