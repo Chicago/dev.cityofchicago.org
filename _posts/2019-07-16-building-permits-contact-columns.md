@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building Permits Dataset Contact Columns Removed
-date: '2019-07-16T16:00-05:00'
+date: '2019-07-16T14:45-05:00'
 author: Open Data Portal Team
 categories:
 - Open Data
