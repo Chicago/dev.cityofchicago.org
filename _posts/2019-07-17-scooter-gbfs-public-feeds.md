@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scooter Data Streams Now Available
-date: '2019-07-17T8=08:00-05:00'
+date: '2019-07-17T09:45-05:00'
 author: Open Data Portal Team
 categories:
 - Open Data
@@ -12,7 +12,7 @@ tags:
 ---
 We have made available a new source of open data, which delivers real-time locations of scooters available for rent in Chicago. More information on Chicago’s scooter pilot is available at [chicago.gov/scooters](https://chicago.gov/scooters). 
  
-The data is accessible by API, and each of the 10 scooter companies hosts their own API feed as a requirement of participation. Details on the data specification can be found [here](https://github.com/dsgermain/gbfs/tree/f76251ad4c754b62defc42562887724f287b73ea). Updated URLs for GBFS feeds are available on [GitHub](https://github.com/NABSA/gbfs/blob/master/systems.csv) and are also listed below.
+The data are accessible by API, and each of the 10 scooter companies hosts its own API feed as a requirement of participation. Details on the data specification can be found [here](https://github.com/dsgermain/gbfs/tree/f76251ad4c754b62defc42562887724f287b73ea). Updated URLs for GBFS feeds are available on [GitHub](https://github.com/NABSA/gbfs/blob/master/systems.csv) and are also listed below.
 
 | Name | GBFS Feed URL | 
 | ---- |------------- |
