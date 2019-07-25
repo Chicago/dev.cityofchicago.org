@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Updates to Transportation Network Provider Datasets
+title: Census Tract Rules for Taxi and TNP Datasets
 date: '2019-07-26T10:00-05:00'
 author: Open Data Portal Team
 categories:
