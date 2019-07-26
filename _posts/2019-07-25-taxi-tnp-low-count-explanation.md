@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Census Tract Rules for Taxi and TNP Datasets
-date: '2019-07-26T10:00-05:00'
+date: '2019-07-29T10:00-05:00'
 author: Open Data Portal Team
 categories:
 - Open Data
@@ -14,7 +14,7 @@ tags:
 ---
 As discussed in [previous](https://digital.cityofchicago.org/index.php/chicago-taxi-data-released) [posts](http://dev.cityofchicago.org/open%20data/data%20portal/2019/04/12/tnp-taxi-privacy.html), we apply specific rules to our [Taxi](https://data.cityofchicago.org/d/wrvz-psew) and [Transportation Network Provider](https://data.cityofchicago.org/d/m6dm-c72p) (TNP) trip data before publication to the Data Portal in order to protect privacy. One of these rules is that for any combination of a 15-minute time period and a Census Tract that has fewer than three trips, we remove the census tract before publication and show only the community area.
 
-Several people have contacted us to say that they believed we had an error in our process such that time / census tract "buckets" with two trips, or even just one trip, were still showing the census tract. At one point, while doing internal data review, we briefly got concerned about this ourselves. However, while we definitely encourage and appreciate people reaching out to us with concerns, this one turns out not to be an error or a violation of our privacy safeguards.
+Several people have contacted us to say that they believed we had an error in our process such that time / census tract "buckets" with two trips, or even just one trip, were still showing the census tract. At one point prior to release of the dataset, while doing internal data review, we briefly got concerned about this ourselves. However, while we definitely encourage and appreciate people reaching out to us with concerns, this one turns out not to be an error or a violation of our privacy safeguards.
 
 To understand why, it is important to remember an additional detail about our process. If *either* the starting or ending location of the trip is part of a bucket of fewer than three trips, we remove the census tracts for *both* ends of the trip.
 
