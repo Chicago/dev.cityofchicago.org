@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Census Tract Rules for Taxi and TNP Datasets
-date: '2019-07-29T10:00-05:00'
+date: '2019-07-29T15:30-05:00'
 author: Open Data Portal Team
 categories:
 - Open Data
@@ -24,6 +24,6 @@ However, the third trip arrives in a census tract where it is the only dropoff i
 
 The end result is that someone viewing the relevant trips dataset (taxi or TNP) would see only two trips in the pickup time / census tract bucket and might question why, given our process. The answer is that there is at least one more trip (exactly one in this hypothetical case) that was originally in that bucket but had its census tract removed due to the other end of the trip. The trip is present in the dataset but with a blank pickup census tract. In some cases, it would be possible to find that trip. In other cases, it would not be possible.
 
-Naturally, the reverse situation also occurs, where a dropoff bucket has only one or two records with census tracts shown, due to the pickup characteristics of other trips in that bucket but with the dropoff census tract hidden.
+Naturally, the reverse situation also occurs, where a dropoff bucket has only one or two records with census tracts shown, due to the pickup characteristics of other trips in that bucket.
 
 Please feel free to ask any questions at [dataportal@cityofchicago.org](mailto:dataportal@cityofchicago.org) or [@ChicagoCDO](https://twitter.com/ChicagoCDO).
