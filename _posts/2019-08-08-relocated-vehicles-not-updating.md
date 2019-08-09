@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Relocated Vehicles Dataset Is Not Updating
+title: Relocated Vehicles Dataset Is Not Updating - Resolved
 date: '2019-08-08T18:00-05:00'
 author: Open Data Portal Team
 categories:
