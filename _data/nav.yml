@@ -13,7 +13,7 @@
     - name: GTFS
       path: http://www.transitchicago.com/developers/gtfs.aspx
     - name: Health Atlas API
-      path: https://chicagohealth.herokuapp.com/apidoc
+      path: https://api.chicagohealthatlas.org/api-docs/index.html
     - name: Lead Safe
       path: docs/lead-safe
     - name: Open 311
