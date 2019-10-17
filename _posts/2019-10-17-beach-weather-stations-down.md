@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Beach Weather Stations Paused Temporarily
-date: '2019-10-17T16:00-05:00'
+date: '2019-10-17T16:30-05:00'
 author: Open Data Portal Team
 categories:
 - Open Data
