@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Divvy Datasets Live Again
-date: '2019-12-16T13:00-05:00'
+date: '2019-12-17T10:00-06:00'
 author: Open Data Portal Team
 categories:
 - Open Data
@@ -26,10 +26,10 @@ Although it did not have an immediate effect because the dataset is only updated
 
 We have now been able to make the necessary changes to our processes and all three datasets are live again.
 
-[Divvy Bicycle Stations](https://data.cityofchicago.org/d/bbyy-e7gq) and [Divvy Trips](https://data.cityofchicago.org/d/fg6s-gzvg) are complete with no data loss we are aware of but there are two important notes.
+Divvy Bicycle Stations and Divvy Trips are complete with no data loss we are aware of but there are two important notes.
 
 1. The station latitude and longitude values for Divvy trips that occurred between during the gap in data (approximately 7/7/2019 to 12/9/2019) have been assigned based on the stations' locations as of 12/9/2019. In some cases, these stations may have been elsewhere at the time of the trip.
 
 2. The new Divvy feed does not include the value used for the Address column in Divvy Bicycle Stations. That column is now blank and will be removed in early 2020. **Please make any necessary changes to processes that use this dataset.**
 
-As anticipated, there is a permanent gap in the [Divvy Bicycle Stations - Historical](https://data.cityofchicago.org/d/eq45-8inv) data between 7/7/2019 and 12/9/2019. As with the Divvy Bicycle Stations dataset, the Address column is blank for records after this gap. However, we are keeping the column in the dataset to preserve previous values.
+As anticipated, there is a permanent gap in the Divvy Bicycle Stations - Historicalhttps://data.cityofchicago.org/d/eq45-8inv data between 7/7/2019 and 12/9/2019. As with the Divvy Bicycle Stations dataset, the Address column is blank for records after this gap. However, we are keeping the column in the dataset to preserve previous values.
