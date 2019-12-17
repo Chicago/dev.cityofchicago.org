@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Divvy Datasets Live Again
-date: '2019-12-17T10:00-06:00'
+date: '2019-12-17T10:15-06:00'
 author: Open Data Portal Team
 categories:
 - Open Data
