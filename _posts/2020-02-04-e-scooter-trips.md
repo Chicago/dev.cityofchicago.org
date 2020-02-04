@@ -16,4 +16,4 @@ We have also released these data as open data in the new [E-Scooter Trips - 2019
 
 Please be aware that the trip total in the dataset does not match some other totals that appear in the e-scooter evaluation and have appeared in the press. As discussed in the "Data Collection Methodology and Limitations" section of the evaluation, beginning on page 75, there was quite a bit of complexity to the source data and some records were sufficient for some purposes but not for others. This dataset contains all records we could get in the necessary format for release.
 
-Both the E-Scooter program itself and the open data presentation of the resulting data will continue to evolve in 2020 and beyond. We welcome your thoughts. Please feel free to contact us at dataportal@cityofchicago.org or [@ChicagoCDO](https://twitter.com/ChicagoCDO).
+Both the E-Scooter program itself and the open data presentation of the resulting data will continue to evolve in 2020 and beyond. We welcome your thoughts. Please feel free to contact us at [dataportal@cityofchicago.org](mailto:dataportal@cityofchicago.org) or [@ChicagoCDO](https://twitter.com/ChicagoCDO).
