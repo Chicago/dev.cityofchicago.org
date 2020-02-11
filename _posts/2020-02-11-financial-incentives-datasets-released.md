@@ -19,7 +19,7 @@ tags:
 ---
 We are happy to announce that the City of Chicago has released a number of new datasets related to Tax Increment Financing (TIF) districts and other forms of financial incentives to catalyze economic development. We have also made some changes to existing datasets.
  
-### New Datasets
+**New Datasets**
  
 Seven new datasets show individual Financial Incentive Projects – two relating to TIFs and five relating to other types of incentives. They are:
  
@@ -39,7 +39,7 @@ All eight datasets will initially be updated quarterly and we hope to be able to
 While not directly part of this data release, we encourage those interested in TIFs to explore the [Department of Planning and Development’s](https://www.chicago.gov/city/en/depts/dcd/provdrs/tif.html) separate [TIF portal](https://webapps1.chicago.gov/ChicagoTif/).
  
  
-### Changes to Existing Datasets
+**Changes to Existing Datasets**
  
 The already-existing Tax Increment Financing (TIF) Projects dataset has been changed in the following ways:
  
