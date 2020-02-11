@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TIF and Financial Incentive Dataset Releases and Changes
-date: '2020-02-11T12:15-06:00'
+date: '2020-02-11T12:30-06:00'
 author: Open Data Portal Team
 categories:
 - Open Data
@@ -34,7 +34,7 @@ Community & Economic Development](https://data.cityofchicago.org/Community-Econo
  
 An eighth new dataset shows [Tax Increment Financing (TIF) Investment Committee Decisions](https://data.cityofchicago.org/d/nm3d-wkdd).
  
-All eight datasets will initially be updated quarterly and we hope to be able to increase the frequency as enhancements to the source data sources permit.
+All eight datasets will initially be updated quarterly and we hope to be able to increase the frequency as enhancements to the source data systems permit.
  
 While not directly part of this data release, we encourage those interested in TIFs to explore the [Department of Planning and Development’s](https://www.chicago.gov/city/en/depts/dcd/provdrs/tif.html) separate [TIF portal](https://webapps1.chicago.gov/ChicagoTif/).
  
@@ -45,8 +45,10 @@ The already-existing Tax Increment Financing (TIF) Projects dataset has been cha
  
 * It has been renamed to [Tax Increment Financing (TIF) Funded RDA and IGA Projects](https://data.cityofchicago.org/d/mex4-ppfc) in order to better represent the content. Existing links should continue to work for all purposes. Please let us know if you find this not to be the case.
 
-* In November 2019, we [announced](http://dev.cityofchicago.org/open data/data portal/2019/11/25/tif-project-changes.html) some changes made at that time and two additional changes to be made later:
+* In November 2019, we [announced](http://dev.cityofchicago.org/open%20data/data%20portal/2019/11/25/tif-project-changes.html) some changes made at that time and two additional changes to be made later:
     * **Remove the PROJECT ID column** – We have now done that.
     * **Convert the LOCATION column from the classic Location type to the newly available Point type to allow for additional functionality** – We have decided not to make this change, after all, at least for the foreseeable future. As we investigated what would be involved, we came to realize that the migration path was not as straightforward – either for us or for people using the data – as expected. Therefore, both for this dataset and for others, we likely will keep existing Location columns. Our practice in recent months has been and will continue to be using the Point column type for new datasets. If we eventually have a better way to make this change, ideally with good backwards compatibility, we may do that for this dataset and others. We would announce such a change here or in a similar forum.
  
 The data in the [Small Business Improvement Fund (SBIF) Grant Agreements](https://data.cityofchicago.org/d/jp7n-tgmf) dataset is also present, along with additional data in the new [Financial Incentive Projects - Small Business Improvement Fund (SBIF)](https://data.cityofchicago.org/d/etqr-sz5x) dataset. Therefore, we will be removing the Small Business Improvement Fund (SBIF) Grant Agreements dataset. **Please make any necessary updates to your uses of this dataset.** We will not remove it any sooner than 2/24/2020.
+
+As always, please contact the City of Chicago Open Data Team at [dataportal@cityofchicago.org](mailto:dataportal@cityofchicago.org) or [@ChicagoCDO](https://twitter.com/ChicagoCDO) with any questions related to using the Data Portal. However, please direct any subject matter questions about these datasets to [FIF-Data@cityofchicago.org](mailto:FIF-Data@cityofchicago.org).
