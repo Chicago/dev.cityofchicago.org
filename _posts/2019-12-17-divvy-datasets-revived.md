@@ -32,4 +32,6 @@ Divvy Bicycle Stations and Divvy Trips are complete with no data loss we are awa
 
 2. The new Divvy feed does not include the value used for the Address column in Divvy Bicycle Stations. That column is now blank and will be removed in early 2020. **Please make any necessary changes to processes that use this dataset.**
 
-As anticipated, there is a permanent gap in the Divvy Bicycle Stations - Historicalhttps://data.cityofchicago.org/d/eq45-8inv data between 7/7/2019 and 12/9/2019. As with the Divvy Bicycle Stations dataset, the Address column is blank for records after this gap. However, we are keeping the column in the dataset to preserve previous values.
+As anticipated, there is a permanent gap in the [Divvy Bicycle Stations - Historical](https://data.cityofchicago.org/d/eq45-8inv) data between 7/7/2019 and 12/9/2019. As with the Divvy Bicycle Stations dataset, the Address column is blank for records after this gap. However, we are keeping the column in the dataset to preserve previous values.
+
+**Update 2/11/2020:** We have removed the Address column, as described above.
