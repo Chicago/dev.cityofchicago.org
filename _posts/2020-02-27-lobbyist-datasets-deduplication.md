@@ -15,14 +15,14 @@ We have introduced new logic to attempt to reduce (ideally, eliminate) this dupl
 
 The other significant change is that some incomplete records will now be filtered out in some datasets:
 
-* Clients
-* Compensation
-* Contributions
-* Employers
-* Expenditures – Hosting
-* Expenditures – Large
-* Expenditures – Small
-* Gifts
-* Lobbying Activity
+* [Clients](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Clients/g8p5-y4m5) - 
+* [Compensation](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Compensation/dw2f-w78u) - 
+* [Contributions](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Contributions/p9p7-vfqc) - 
+* [Employers](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Employers/dmeb-2zra) - Records without a registration year.
+* [Expenditures – Hosting](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Expenditures-Hosting/pvm2-bd2i) - 
+* [Expenditures – Large](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Expenditures-Large/xika-473c) - 
+* [Expenditures – Small](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Expenditures-Small/eqdx-4qxd) - 
+* [Gifts](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Gifts/5d79-9xqr) - 
+* [Lobbying Activity](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Lobbying-Activity/pahz-egmi) - 
 * [Lobbyists](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Lobbyists/tq3e-t5yq) - Records without a registration year and/or employer.
-* Lobbyist, Employer, Client Combinations
+* [Lobbyist, Employer, Client Combinations](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Lobbyist-Employer-Client-Combination/2eqz-3nvz) - 
