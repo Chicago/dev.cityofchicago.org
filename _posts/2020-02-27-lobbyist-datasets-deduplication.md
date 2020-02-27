@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lobbyist Dataset Deduplication Changes
-date: '2020-02-27T14:00-06:00'
+date: '2020-02-27T15:00-06:00'
 author: Open Data Portal Team
 categories:
 - Open Data
@@ -26,3 +26,5 @@ The other significant change is that some incomplete records will now be filtere
 * [Lobbying Activity](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Lobbying-Activity/pahz-egmi) - No change.
 * [Lobbyists](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Lobbyists/tq3e-t5yq) - Records without a registration year and/or employer.
 * [Lobbyist, Employer, Client Combinations](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Lobbyist-Employer-Client-Combination/2eqz-3nvz) - No change.
+
+As always, please contact the City of Chicago Open Data Team at [dataportal@cityofchicago.org](mailto:dataportal@cityofchicago.org) or [@ChicagoCDO](https://twitter.com/ChicagoCDO) with any questions related to using the Data Portal. However, please direct any subject matter questions about these datasets to **[Is there an Ethics e-mail address we can list? If not, how about if we point people to https://www.chicago.gov/city/en/depts/ethics.html?]** or [@ChicagoEthicsBd](https://twitter.com/ChicagoEthicsBd)
