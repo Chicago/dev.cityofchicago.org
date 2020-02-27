@@ -1,17 +1,28 @@
 ---
 layout: post
-title: Lobbyist Dataset Deduplication Changes
-date: '2020-02-27T15:00-06:00'
+title: Lobbyist Dataset Deduplication Corrections
+date: '2020-02-27T16:00-06:00'
 author: Open Data Portal Team
 categories:
 - Open Data
 - Data Portal
 tags:
+- g8p5-y4m5
+- dw2f-w78u
+- p9p7-vfqc
+- dmeb-2zra
+- pvm2-bd2i
+- xika-473c
+- eqdx-4qxd
+- 5d79-9xqr
+- pahz-egmi
+- 2eqz-3nvz
+- tq3e-t5yq
 - revision
 ---
-We have discovered that as a side-effect of revisions that lobbyists are permitted to make and actually do make fairly often, some of the [Lobbyist Data](https://digital.cityofchicago.org/index.php/improved-lobbyist-data/) datasets have what amount to duplicate records.
+We have discovered that, as a side-effect of revisions that registered lobbyists are permitted to make to their reported compensation, and that they actually do make fairly often, some of the [Lobbyist Data](https://digital.cityofchicago.org/index.php/improved-lobbyist-data/) datasets have what amount to duplicate records.
 
-We have introduced new logic to attempt to reduce (ideally, eliminate) this duplication and will be applying it to the datasets shortly. As a consequence, the values of the ID columns (e.g., `LOBBYIST_ID`) will change. They will remain internally consistent but will not match previous values. **Please make any necessary changes to your uses of the data and export copies of the current datasets if you will need them.** If you do not get a chance to export them before we make this change, you should be able to use the [Dataset Snapshot](https://support.socrata.com/hc/en-us/articles/360034795754-Dataset-Backups) feature in each dataset to download a copy. (Please note that, as a general rule, you should not rely on these backups being available for datasets because of how the datasets are normally updated but we will manually force backups in this case. If you will need them, please download them as soon as possible since we cannot guarantee how long they will remain available.)
+We have introduced new logic to attempt to eliminate this duplication and will be applying it to the datasets shortly. As a consequence, the values of the ID columns (e.g., `LOBBYIST_ID`) will change. They will remain internally consistent but will not match previous values. **Please make any necessary changes to your uses of the data and export copies of the current datasets if you will need them.** If you do not get a chance to export them before we make this change, you should be able to use the [Dataset Snapshot](https://support.socrata.com/hc/en-us/articles/360034795754-Dataset-Backups) feature in each dataset to download a copy. (Please note that, as a general rule, you should not rely on these backups being available for datasets because of how the datasets are normally updated but we will manually force backups in this case. If you will need them, please download them as soon as possible since we cannot guarantee how long they will remain available.)
 
 The other significant change is that some incomplete records will now be filtered out in some datasets:
 
@@ -27,4 +38,4 @@ The other significant change is that some incomplete records will now be filtere
 * [Lobbyists](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Lobbyists/tq3e-t5yq) - Records without a registration year and/or employer.
 * [Lobbyist, Employer, Client Combinations](https://data.cityofchicago.org/Ethics/Lobbyist-Data-Lobbyist-Employer-Client-Combination/2eqz-3nvz) - No change.
 
-As always, please contact the City of Chicago Open Data Team at [dataportal@cityofchicago.org](mailto:dataportal@cityofchicago.org) or [@ChicagoCDO](https://twitter.com/ChicagoCDO) with any questions related to using the Data Portal. However, please direct any subject matter questions about these datasets to **[Is there an Ethics e-mail address we can list? If not, how about if we point people to https://www.chicago.gov/city/en/depts/ethics.html?]** or [@ChicagoEthicsBd](https://twitter.com/ChicagoEthicsBd).
+As always, please contact the City of Chicago Open Data Team at [dataportal@cityofchicago.org](mailto:dataportal@cityofchicago.org) or [@ChicagoCDO](https://twitter.com/ChicagoCDO) with any questions related to using the Data Portal. However, please direct any subject matter questions about these datasets to the Board of Ethics at (312) 744-9660, by email to its Executive Director at [steve.berlin@cityofchicago.org](mailto:steve.berlin@cityofchicago.org), or by direct message to [@ChicagoEthicsBd](https://twitter.com/ChicagoEthicsBd).
