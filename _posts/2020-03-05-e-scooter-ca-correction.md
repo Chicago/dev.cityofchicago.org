@@ -1,7 +1,7 @@
 ---
 layout: post
 title: E-Scooter Community Area Number Correction
-date: '2020-03-05T13:30-06:00'
+date: '2020-03-05T13:45-06:00'
 author: Open Data Portal Team
 categories:
 - Open Data
