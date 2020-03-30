@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 311 Service Requests - Street Lights - One Out - Historical Column Type Correction
-date: '2020-03-30T15:45-05:00'
+date: '2020-03-30T16:00-05:00'
 author: Open Data Portal Team
 categories:
 - Open Data
