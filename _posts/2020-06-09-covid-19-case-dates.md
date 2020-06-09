@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Percent Positive Calculation Change for COVID-19 Cases, Tests, and Deaths by ZIP Code
-date: '2020-06-09T09:00-05:00'
+date: '2020-06-09T16:30-05:00'
 author: Open Data Portal Team
 categories:
 - Open Data
@@ -23,7 +23,9 @@ Previously, cases were assigned to the date the positive lab test was reported. 
 
 For [COVID-19 Cases, Tests, and Deaths by ZIP Code](https://data.cityofchicago.org/d/yhhz-zm2v), this change modifies the effect of the [PERCENT POSITIVE CALCULATION CHANGE FOR COVID-19 CASES, TESTS, AND DEATHS BY ZIP CODE](http://dev.cityofchicago.org/open%20data/data%20portal/2020/05/29/covid-19-weekly-ZIP-percent-positive.html) post a bit in that the "Percent Tested Positive" rates **will** now be the quotients of the corresponding case and test rates again.
 
-For the two daily datasets, we are also slightly increasing and standarizing the lag before records appear in the datasets. This is partly due to cases now appearing on earlier dates and partly due to inherent lags in data reporting, such that recent dates tended to be chronically incomplete. There will now be a five-day delay -- implemented gradually through this week such that no date already appearing will be removed. Records for past dates still will be updated as needed but the hope is that data will stabilize within five days so these updates will be relatively small.
+For the [COVID-19 Daily Rolling Average Case and Death Rates](https://data.cityofchicago.org/d/e68t-c7fv) dataset, we are also slightly increasing the lag before records appear. This is partly due to cases now appearing on earlier dates and partly due to inherent lags in data reporting, such that recent dates tended to be chronically incomplete. There will now be a five-day delay -- implemented gradually through this week such that no date already appearing will be removed. Records for past dates still will be updated as needed but the hope is that data will stabilize within five days so these updates will be relatively small. The lag times for all other datasets will either remain unchanged or potentially be reduced.
+
+As an important note, if lags are reduced, there may be cases where values are posted same-day -- even though the day is not even yet over and the values therefore cannot be complete (aside from delays in reporting even once a day ends). 
 
 These changes were recommended by the [Chicago Department of Public Health](https://www.chicago.gov/cdph) in line with its best practices.
 
