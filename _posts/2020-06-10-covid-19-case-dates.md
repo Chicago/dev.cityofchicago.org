@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Percent Positive Calculation Change for COVID-19 Cases, Tests, and Deaths by ZIP Code
+title: Date Changes for COVID-19 Datasets
 date: '2020-06-10T10:30-05:00'
 author: Open Data Portal Team
 categories:
