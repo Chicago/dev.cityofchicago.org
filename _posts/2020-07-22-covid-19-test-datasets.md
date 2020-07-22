@@ -17,9 +17,11 @@ The existing dataset, previously named "COVID-19 Daily Testing" is now [COVID-19
 
 The new dataset is [COVID-19 Daily Testing - By Test](https://data.cityofchicago.org/d/gkdw-2tgv).
 
-The "By Person" dataset includes a distinct person a maximum of two times -- on the earliest date he/she received a positive result and the earliest date he/she received a not positive result. Subsequent tests on the same person with the same result are not included.
+The "By Person" dataset includes each person only once -- on the earliest date he/she received a positive result, if ever, and otherwise the earliest date he/she received a not positive result.
 
-Because it is based on the "By Person" dataset, the weekly [COVID-19 Cases, Tests, and Deaths by ZIP Code](https://data.cityofchicago.org/d/yhhz-zm2v) dataset similarly includes a distinct person a maximum of two times, with subsequent tests on the same person with the same result not included.
+Because it is based on the "By Person" dataset, the weekly [COVID-19 Cases, Tests, and Deaths by ZIP Code](https://data.cityofchicago.org/d/yhhz-zm2v) dataset similarly includes a distinct person only once, according to the same rule.
+
+**(Note, 7/22/2020 4 pm: The previous two paragraphs have been corrected from the original version of this post.)**
 
 The "By Test" dataset shows distinct tests performed. All tests known to the [Chicago Department of Public Health](https://www.chicago.gov/cdph) should be included *except* multiple tests for a person on the same day with the same result. The positivity rate displayed in this dataset uses the method most commonly used by other jurisdictions in the United States.
 
