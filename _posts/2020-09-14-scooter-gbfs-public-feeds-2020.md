@@ -1,7 +1,7 @@
 ---
 layout: post
 title: E-scooter Data Streams for 2020 Now Available
-date: '2020-09-147T17:00-05:00'
+date: '2020-09-147T11:00-05:00'
 author: Open Data Portal Team
 categories:
 - Open Data
