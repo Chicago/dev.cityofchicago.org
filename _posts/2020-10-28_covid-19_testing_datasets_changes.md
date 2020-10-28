@@ -13,13 +13,13 @@ tags:
 - gkdw-2tgv
 - yhhz-zm2v
 ---
-On 10/29/2020, the following COVID-19 datasets will change. These changes are being made in cooperation with the Chicago Department of Public Health to reflect evolving public health best practices in managing the pandemic. The core idea behind all of these changes is a move away from tracking/reporting COVID-19 tests by unique person to tracking/reporting them by distinct test.
+On 10/29/2020, the following COVID-19 datasets will change. These changes are being made in cooperation with the Chicago Department of Public Health (CDPH) to reflect evolving public health best practices in managing the pandemic. The core idea behind all of these changes is a move away from tracking/reporting COVID-19 tests by unique person to tracking/reporting them by distinct test.
 
 * [COVID-19 Daily Testing - By Person](https://data.cityofchicago.org/d/t4hh-4ku9) – This dataset will no longer be updated and will be marked as historical.
 * [COVID-19 Cases, Tests, and Deaths by ZIP Code](https://data.cityofchicago.org/d/yhhz-zm2v) – There will be no structural changes but numbers in existing test-related columns will change to count distinct tests instead of unique people. Columns related to cases and deaths will continue to count unique people.
 * [COVID-19 Daily Testing - By Test](https://data.cityofchicago.org/d/gkdw-2tgv) – There will be new columns to incorporate the Age, Gender, and Race/Ethnicity breakdowns previously reported in the “By Person” dataset. The Percent Positive Tests column will be removed.
 
-Please see **[URL]** and the descriptive text in the datasets, themselves, for additional information.
+Please see this CDPH [explanation](https://www.chicago.gov/content/dam/city/depts/cdph/statistics_and_reports/COVID%20POSITIVITY%20RATE%20CHANGES%20102720.pdf) and the descriptive text in the datasets, themselves, for additional information.
 
 This post may be updated with additional information as the changes move forward.
 
