@@ -17,11 +17,10 @@ On 10/29/2020, the following COVID-19 datasets will change. These changes are be
 
 * [COVID-19 Daily Testing - By Person](https://data.cityofchicago.org/d/t4hh-4ku9) - This dataset will no longer be updated and will be marked as historical.
 * [COVID-19 Cases, Tests, and Deaths by ZIP Code](https://data.cityofchicago.org/d/yhhz-zm2v) - There will be no structural changes but numbers in existing test-related columns will change to count distinct tests instead of unique people. Columns related to cases and deaths will continue to count unique people.
-* [COVID-19 Daily Testing - By Test](https://data.cityofchicago.org/d/gkdw-2tgv) - There will be new columns to incorporate the Age, Gender, and Race/Ethnicity breakdowns previously reported in the "By Person" dataset. The Percent Positive Tests column will be removed.
+* [COVID-19 Daily Testing - By Test](https://data.cityofchicago.org/d/gkdw-2tgv) - There will be new columns to incorporate the Age, Gender, and Race/Ethnicity breakdowns previously reported in the By Person dataset. The Percent Positive Tests column will be removed.
 
-Please see this CDPH [explanation](https://www.chicago.gov/content/dam/city/depts/cdph/statistics_and_reports/COVID%20POSITIVITY%20RATE%20CHANGES%20102720.pdf) and the descriptive text in the datasets, themselves, for additional information.
+Please see this CDPH [explanation](https://www.chicago.gov/content/dam/city/depts/cdph/statistics_and_reports/COVID\%20POSITIVITY\%20RATE\%20CHANGES\%20102720.pdf) and the descriptive text in the datasets, themselves, for additional information.
 
 This post may be updated with additional information as the changes move forward.
 
 As always, please feel to contact us at [dataportal@cityofchicago.org](mailto:dataportal@cityofchicago.org) or [@ChicagoCDO](https://twitter.com/ChicagoCDO) with any questions, comments, or concerns related to the datasets. For subject matter questions about these datasets or any other COVID-19 datasets, please contact the Department of Public Health's epidemiology team at [epidatarequests@cityofchicago.org](mailto:epidatarequests@cityofchicago.org). For general information about COVID-19 in Chicago, please visit [https://www.chicago.gov/coronavirus](https://www.chicago.gov/coronavirus) or contact [coronavirus@chicago.gov](mailto:coronavirus@chicago.gov).
-
