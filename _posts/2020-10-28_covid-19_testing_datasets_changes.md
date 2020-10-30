@@ -19,7 +19,7 @@ On 10/29/2020, the following COVID-19 datasets will change. These changes are be
 * [COVID-19 Cases, Tests, and Deaths by ZIP Code](https://data.cityofchicago.org/d/yhhz-zm2v) - There will be no structural changes but numbers in existing test-related columns will change to count distinct tests instead of unique people. Columns related to cases and deaths will continue to count unique people.
 * [COVID-19 Daily Testing - By Test](https://data.cityofchicago.org/d/gkdw-2tgv) - There will be new columns to incorporate the Age, Gender, and Race/Ethnicity breakdowns previously reported in the By Person dataset. The Percent Positive Tests column will be removed.
 
-Please see this CDPH [explanation](https://www.chicago.gov/content/dam/city/depts/cdph/statistics_and_reports/COVID\%20POSITIVITY\%20RATE\%20CHANGES\%20102720.pdf) and the descriptive text in the datasets, themselves, for additional information.
+Please see information from CDPH at the top of its COVID-19 [dashboard](https://www.chicago.gov/city/en/sites/covid-19/home/covid-dashboard.html) and the descriptive text in the datasets, themselves, for additional information.
 
 This post may be updated with additional information as the changes move forward.
 
