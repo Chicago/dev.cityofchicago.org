@@ -13,11 +13,11 @@
     - name: GTFS
       path: http://www.transitchicago.com/developers/gtfs.aspx
     - name: Health Atlas API
-      path: https://api.chicagohealthatlas.org/api-docs/index.html
+      path: https://rapidapi.com/blog/directory/chicago-police-clearpath/
     - name: Lead Safe
-      path: docs/lead-safe
+      path: http://dev.cityofchicago.org/docs/lead-safe/
     - name: Open 311
-      path: docs/open311
+      path: http://dev.cityofchicago.org/docs/open311/
     - name: OpenGrid Dev Docs
       path: http://opengrid.readthedocs.io
     - name: Plenario
