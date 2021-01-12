@@ -6,8 +6,6 @@
   children:
     - name: Bus, Trains &amp; Alerts
       path: http://www.transitchicago.com/developers/
-    - name: ClearPath API
-      path: http://api1.chicagopolice.org/clearpath/
     - name: DIVVY API
       path: https://www.divvybikes.com/system-data
     - name: GTFS
@@ -15,9 +13,9 @@
     - name: Health Atlas API
       path: https://api.chicagohealthatlas.org/api-docs/index.html
     - name: Lead Safe
-      path: docs/lead-safe
+      path: http://dev.cityofchicago.org/docs/lead-safe/
     - name: Open 311
-      path: docs/open311
+      path: http://dev.cityofchicago.org/docs/open311
     - name: OpenGrid Dev Docs
       path: http://opengrid.readthedocs.io
     - name: Plenario
