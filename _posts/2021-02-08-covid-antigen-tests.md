@@ -1,7 +1,7 @@
 ---
 layout: post
 title: COVID-19 Antigen Tests
-date: '2021-02-08T16:15-06:00'
+date: '2021-02-08T15:30-06:00'
 author: Open Data Portal Team
 categories:
 - Open Data
