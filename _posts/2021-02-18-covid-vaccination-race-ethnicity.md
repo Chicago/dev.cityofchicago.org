@@ -1,7 +1,7 @@
 ---
 layout: post
 title: COVID-19 Vaccination Race-Ethnicity Data
-date: '2021-02-18T11:30-06:00'
+date: '2021-02-18T12:15-06:00'
 author: Open Data Portal Team
 categories:
 - Open Data
