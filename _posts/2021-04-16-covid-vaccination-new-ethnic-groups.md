@@ -1,7 +1,7 @@
 ---
 layout: post
 title: COVID-19 Vaccination New Ethnic Groups
-date: '2021-04-16T13:00-05:00'
+date: '2021-04-16T13:30-05:00'
 author: Open Data Portal Team
 categories:
 - Open Data
