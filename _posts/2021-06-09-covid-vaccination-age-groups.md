@@ -1,7 +1,7 @@
 ---
 layout: post
 title: COVID-19 Vaccination New Age Groups
-date: '2021-06-09T12:30-05:00'
+date: '2021-06-09T13:00-05:00'
 author: Open Data Portal Team
 categories:
 - Open Data
@@ -22,7 +22,7 @@ As of today (6/9/2021), an update is being made to add additional age group brea
 
 One new column will be added to the [Chicago Population Counts](https://data.cityofchicago.org/d/85cm-7uqa) dataset for estimated population counts of children 12-17 years old, Citywide and by ZIP Code, based on the U.S. Census Bureau [table B09001](https://data.census.gov/cedsci/table?q=B09001&tid=ACSDT1Y2019.B09001). Note that population counts for this age group only include children who live in households.  
 
-Three new columns will be added to the [COVID-19 Daily Vaccinations - Chicago Residents](https://data.cityofchicago.org/d/2vhs-cf6b) dataset for children 12-17 years-old -- one each for daily total doses, first doses, and completed series. Data in these columns overlap with existing columns for children 0-17 years old; care should be taken when summing values to avoid accidental double-counting. 
+Three new columns will be added to the [COVID-19 Daily Vaccinations - Chicago Residents](https://data.cityofchicago.org/d/2vhs-cf6b) dataset for children 12-17 years-old -- one each for daily total doses, first doses, and completed series. Data in these columns overlap with existing columns for children 0-17 years old. Care should be taken when summing values to avoid accidental double-counting. 
 
 Nine new columns will be added to the [COVID-19 Vaccinations by ZIP Code](https://data.cityofchicago.org/d/553k-3xzc) dataset for people 65 years and older, 18 years and older, and 12 years and older -- one column for each age group for daily total doses, first doses, and completed series.  
 
