@@ -21,7 +21,8 @@ As a result of this change, the [COVID Daily Dashboard](https://www.chicago.gov/
 
 In both cases, data records for all seven days of the week will continue to be reported in the dataset -- just delayed for data that previously would have been posted over the weekend or on a holiday.
 
-The affected datasets are:  
+The affected datasets are the following.
+
 * [COVID-19 Daily Rolling Average Case, Death, and Hospitalization Rates](https://data.cityofchicago.org/d/e68t-c7fv)
 * [COVID-19 Daily Testing - By Test](https://data.cityofchicago.org/d/gkdw-2tgv)
 * [COVID-19 Vaccinations by ZIP Code](https://data.cityofchicago.org/d/553k-3xzc)
