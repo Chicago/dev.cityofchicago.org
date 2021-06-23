@@ -16,7 +16,7 @@ Starting with the 6/23/2021 update, the [COVID-Like Illness (CLI) Emergency Depa
 *  `Total COVID – Daily` (Number of COVID-19 cases diagnosed in EDs)
 *  `COVID Count – 7 day average` (7-day rolling average number of COVID-19 cases diagnosed in EDs)
 *  `COVID Percent – Daily` (Percentage of ED visits that are COVID-19 diagnoses)
-* ` COVID Percent – 7 day average` (7-day rolling average of the percentage of ED visits that are COVID-19 diagnoses)
+*  `COVID Percent – 7 day average` (7-day rolling average of the percentage of ED visits that are COVID-19 diagnoses)
 
 The CLI visit columns will be retained within the dataset, but will no longer be updated. Going forward, only COVID-19 diagnosed during an ED visit will be reported. 
 In brief summary, the legacy CLI columns related to patients showing signs suggestive of COVID-19 -- an approach used for many years for influenza -- while the new columns relate to actual, test-confirmed diagnosis of COVID-19. This change is being made to better differentiate ED visits due to COVID-19 from other respiratory illnesses (e.g., influenza).
