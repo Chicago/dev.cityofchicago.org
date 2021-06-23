@@ -1,7 +1,7 @@
 ---
 layout: post
 title: COVID-19 Emergency Department Visits Reporting Change
-date: '2021-06-22T13:00-05:00'
+date: '2021-06-23T13:30-05:00'
 author: Open Data Portal Team
 categories:
 - Open Data
