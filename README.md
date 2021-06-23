@@ -1,4 +1,4 @@
-[![Master branch status](https://img.shields.io/travis/Chicago/dev.cityofchicago.org/master.svg?style=flat-square)](https://travis-ci.org/Chicago/dev.cityofchicago.org)
+[![Master branch status](https://img.shields.io/travis/Chicago/dev.cityofchicago.org/master.svg?style=flat-square)](https://travis-ci.com/Chicago/dev.cityofchicago.org)
 
 # dev.cityofchicago.org
 
@@ -69,6 +69,6 @@ Use GitHub pages to publicly test changes by pushing to the `gh-pages` branch. T
 
 ## Deployment
 
-Pushes to the `master` branch are built on [Travis CI](https://travis-ci.org/Chicago/dev.cityofchicago.org) and then deployed to the `dev.cityofchicago.org` S3 bucket and available at http://dev.cityofchicago.org.
+Pushes to the `master` branch are built on [Travis CI](https://travis-ci.com/Chicago/dev.cityofchicago.org) and then deployed to the `dev.cityofchicago.org` S3 bucket and available at http://dev.cityofchicago.org.
 
 Production versions of this repo should be sent to S3. The `config.yml` file should be configured so `url: "http://dev.cityofchicago.org"`.
