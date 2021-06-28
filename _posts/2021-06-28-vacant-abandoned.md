@@ -27,7 +27,7 @@ We recently discovered some data issues with the [Vacant and Abandoned Buildings
    * Interest Amount
    * Collection Costs or Attorney Fees
    * Court Cost  
-  
+    
     **The above issues have been fixed, as of 6/28/2021.**  
   
 4. Similar to Issue 3, the "Total Administrative Costs" column was, and still is, always $0. We are looking into whether we can populate it reliably or if it would be better to remove it. We will update this post and/or create a new one when we determine an approach.  
