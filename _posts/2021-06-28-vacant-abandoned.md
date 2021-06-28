@@ -26,11 +26,10 @@ We recently discovered some data issues with the [Vacant and Abandoned Buildings
 3. These columns were always blank or $0, due to an unrealized issue with the source data. They now contain accurate data.
    * Interest Amount
    * Collection Costs or Attorney Fees
-   * Court Cost
+   * Court Cost  
   
-    **The above issues have been fixed, as of 6/28/2021.**
-
-
+    **The above issues have been fixed, as of 6/28/2021.**  
+  
 4. Similar to Issue 3, the "Total Administrative Costs" column was, and still is, always $0. We are looking into whether we can populate it reliably or if it would be better to remove it. We will update this post and/or create a new one when we determine an approach.  
 
 5. While not directly an issue or problem, we wanted to re-emphasize that the dataset contains only records for properties owned by financial institutions.
