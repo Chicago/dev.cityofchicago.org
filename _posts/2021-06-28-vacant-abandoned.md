@@ -21,7 +21,7 @@ We recently discovered some data issues with the [Vacant and Abandoned Buildings
 
 2. Each record was a distinct violation. However, the dollar amounts referred to all violations for the Docket Number, as a whole. Because the same Docket Number could appear multiple times, attempts to sum amounts could lead to misleading results. To address this possible point of confusion, we have consolidated each Docket Number into a single record, with the Violation Number and Type values concatenated and separated by the pipe (\|) character. For example  
 
-     >13-12-125  Duty to secure and maintain vacant building | 13-12-140  Watchman required  
+     >13-12-125  Duty to secure and maintain vacant building \| 13-12-140  Watchman required  
   
 3. These columns were always blank or $0, due to an unrealized issue with the source data. They now contain accurate data.
    * Interest Amount
