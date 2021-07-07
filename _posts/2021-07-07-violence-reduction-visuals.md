@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Violence Reduction Data Portal Visualizations Replaced by Violence Reduction Dashboard
-date: '2021-07-06T17:00-05:00'
+date: '2021-07-07T09:15-05:00'
 author: Open Data Portal Team
 categories:
 - Open Data
@@ -17,6 +17,6 @@ To complement the new [violence reduction datasets](https://data.cityofchicago.o
  
 This produced the situation of two competing versions of visuals out there for these datasets. To streamline the user experience and reduce confusion, we have decided to host all visuals for these datasets within the VR dashboard.
  
-**As a result, we will be removing all visualizations based on these datasets from the Data Portal, while retaining all the underlying data within the datasets.**  For clarity, no published data are being removed. The views involved are purely visualizations of those data and, in fact, any public user can create the same views or similar ones customized to their specific needs.
+__As a result, we will be removing all visualizations based on these datasets from the Data Portal, while retaining all the underlying data within the datasets.__  For clarity, no published data are being removed. The views involved are purely visualizations of those data and, in fact, any public user can create the same views or similar ones customized to their specific needs.
 
 As always, please feel free to contact the City of Chicago Open Data Team at [dataportal@cityofchicago.org](mailto:dataportal@cityofchicago.org) or [@ChicagoCDO](https://twitter.com/ChicagoCDO) with any questions.
