@@ -1,7 +1,7 @@
 ---
 layout: post
 title: COVID-19 Partial-Chicago ZIP Code Change
-date: '2021-08-12T12:00-05:00'
+date: '2021-08-12T12:30-05:00'
 author: Open Data Portal Team
 categories:
 - Open Data
