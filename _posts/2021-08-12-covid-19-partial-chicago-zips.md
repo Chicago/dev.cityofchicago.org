@@ -11,7 +11,7 @@ tags:
 - revision
 - 553k-3xzc
 ---
-Starting with the 8/12/2021 update, the [COVID-19 Vaccinations by ZIP Code](https://data.cityofchicago.org/d/553k-3xzc) dataset has been changed for the ZIP Codes 60707 and 60827 that are mostly outside Chicago. The population counts listed have always been for the entire ZIP Code so do not correspond to the number of people potentially eligible to be included in the vaccination count columns -- Chicago residents. As a result the "Percent Population" values have been artificially low. We have not been able to find a practical way to get reliable population estimates so eventually decided that it would be best to remove the potentially misleading values. Therefore, the following columns will have no value at all for those two ZIP Codes -- including for past dates.
+Starting with the 8/12/2021 update, the [COVID-19 Vaccinations by ZIP Code](https://data.cityofchicago.org/d/553k-3xzc) dataset has been changed for the ZIP Codes 60707 and 60827 that are mostly outside Chicago. The population counts listed have always been for the entire ZIP Code so do not correspond to the number of Chicagoans potentially eligible to be included in the vaccination count columns. As a result the "Percent Population" values have been artificially low. We have not been able to find a practical way to get reliable Chicago-only population estimates so eventually decided that it would be best to remove the potentially misleading values. Therefore, the following columns will have no value at all for those two ZIP Codes -- including for past dates.
 
 *  `1st Dose - Percent Population`
 *  `Vaccine Series Completed - Percent Population`
